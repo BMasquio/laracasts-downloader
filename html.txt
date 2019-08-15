@@ -1,0 +1,862 @@
+
+====================================
+Authenticating
+====================================
+> Successfull!
+
+====================================
+Starting Collecting the data
+====================================
+
+====================================
+Checking for options []
+====================================
+> No options provided
+
+====================================
+Downloading
+====================================
+> 204 new lessons and 1007 episodes. 3.848s elapsed with 6.00Mb of memory usage.
+
+====================================
+Downloading Lessons
+====================================
+
+> Download started: the-repository-trap-and-other-ramblings . . . . Saving on lessons folder.
+$downloadUrlhttps://laracasts.com/downloads/eyJpdiI6Im5hamJ0dHpKamF3a1BQb3VkaXdRWlE9PSIsInZhbHVlIjoiYWc5TGRKeXF1eW1pbWNDVEkxaVJDZz09IiwibWFjIjoiOGZkMzg1MzIyYzQ2MzM1MDFjNTkwMzRhNmU5NTEwZDU1ZDBiZDFkYmQxMzRkOTljMzc2NjFjZmExODU2YmEwZSJ9" :completed="false" :is-subscribed-to="false" :is-favorited="falseHTTP/1.1 302 Found
+Date: Thu, 15 Aug 2019 22:16:16 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: no-cache, private
+Location: https://laracasts.com
+set-cookie: XSRF-TOKEN=eyJpdiI6IkJxcm1QXC9ScitSTzJxVUdcL3VERHlOZz09IiwidmFsdWUiOiI3SnhXODYzOURVVENzWW0yYVdWSlwvZXZIemorRTBDZWRHbVg0YXdQZ2dXeFhpWXdMejYzdUp4MCtrZmtkYmJnZyIsIm1hYyI6Ijk5NTA1YTI1Zjk1ZWQ5MmE1NDkyZTdhNmZhNGVhODBkOTc0ODQ3Mzc1ZTJlNjFjZjY4YmI1NTU3NzA2YTQxMDEifQ%3D%3D; expires=Fri, 16-Aug-2019 00:16:16 GMT; Max-Age=7200; path=/, laravel_session=eyJpdiI6IjRGM3dONXdXeDhtTmJtbGh2Y3JPZVE9PSIsInZhbHVlIjoiaHMxMXdWbEZDTHhwZnJ6VjVMOUVSbkJSeFNCZ3Qzb2pZRlZOellhdHNCTnFudVZOXC95eUI0N2RRckd2TVlnREciLCJtYWMiOiI3YWZmMTU3YWE5NzU2MmQ4Y2ExMjY1ZDJhYjliOWU4Nzg4NTFkZDllY2QxM2E2ZDAwNWU0NGM1MWYwZTE1NDcwIn0%3D; expires=Fri, 16-Aug-2019 00:16:16 GMT; Max-Age=7200; path=/; httponly
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Server: cloudflare
+CF-RAY: 506e8830dac6dba8-GIG
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="refresh" content="0;url=https://laracasts.com" />
+<title>Redirecting to https://laracasts.com</title>
+</head>
+<body>
+Redirecting to <a href="https://laracasts.com">https://laracasts.com</a>.
+</body>
+</html>$viemoUrlhttps://laracasts.comHTTP/1.1 200 OK
+Date: Thu, 15 Aug 2019 22:16:17 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+Cache-Control: no-cache, private
+set-cookie: XSRF-TOKEN=eyJpdiI6IldOSXd2SklBYnZNT3I3NU91YTZNRmc9PSIsInZhbHVlIjoiZlhHOGN4alVKQlo5dGxBY1duMHVHOEE0NHNsZmZNamltUzJiVzYxaTZpaDRyYTBmekc3VHdpRUgzdCtvSTdkeSIsIm1hYyI6IjVmZDRjZTlmYmUzYTY0MzM5ZWU4M2MwM2RkMTYwMzU0MTIzZDM2YjM2NzBmNDkxNmIxMmJjNjIwOGIxNTFhOTUifQ%3D%3D; expires=Fri, 16-Aug-2019 00:16:17 GMT; Max-Age=7200; path=/, laravel_session=eyJpdiI6Ik9pK0FvdjY3emU4QVJ4Zm5LMzJsckE9PSIsInZhbHVlIjoiRFBaWjBpMjc5VEppOG1YZnUrOFRtbGFkRkM3aDZsUjdFUmVWeTdTUG5oTGpBclBGTWtsU1BOOHpQK21BVUg1ZyIsIm1hYyI6IjMyNTkwZjlkZjk5MWVmM2RkODVkOThkZjgxYTQ1N2RkNDhlNGQ2MmFmY2VjOWNjZWQ0ZjQyYmQwZWZmZDAyNDIifQ%3D%3D; expires=Fri, 16-Aug-2019 00:16:17 GMT; Max-Age=7200; path=/; httponly
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Server: cloudflare
+CF-RAY: 506e8831dd66dba8-GIG
+
+<!DOCTYPE html>
+<html class="" lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, user-scalable=no">
+<meta property="og:site_name" content="Laracasts">
+<meta property="fb:app_id" content="511211375738022">
+<meta name="csrf-token" content="5JGu7MF9kgzfBTUcvP6ejfyh2QnsrvUtAjK9OClX">
+<title>Laracasts</title>
+<meta name="description" content="Push your web developments skills to the next level, through expert screencasts on Laravel, Vue, and so much more. ">
+<link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+<link rel="manifest" href="/favicons/site.webmanifest">
+<link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#3668c9">
+<link rel="shortcut icon" href="/favicons/favicon.ico">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-config" content="/favicons/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+<link rel="prefetch" href="/images/home/home-banner-blue-swirl.svg">
+<link rel="alternate" type="application/atom+xml" title="Laracasts" href="/feed">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=optional" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Muli:400,800&display=optional" rel="stylesheet">
+<link href="/css/app.css?id=404a40d92c303ad49beb" rel="stylesheet">
+<script type="70eee5003d8ad428a7d09c2a-text/javascript">
+        window.LARACASTS = {"user":148245,"username":"Brunomasquio","signedIn":true,"csrfToken":"5JGu7MF9kgzfBTUcvP6ejfyh2QnsrvUtAjK9OClX","subscribed":true,"teamOwner":false,"stripeKey":"pk_live_42cAcd2OvCDs4hpErd5ZscBT","watchLaters":{"series":[],"videos":[]}};
+    </script>
+<meta property="og:title" content="Laracasts">
+<meta property="og:description" content="Push your web developments skills to the next level, through expert screencasts on Laravel, Vue, and so much more.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://laracasts.com">
+<meta property="og:image" content="https://laracasts.com/images/laracasts-twitter-card.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@laracasts">
+<meta name="twitter:title" content="Laracasts">
+<meta name="twitter:description" content="Push your web developments skills to the next level, through expert screencasts on Laravel, Vue, and so much more.">
+<meta name="twitter:image" content="https://laracasts.com/images/laracasts-twitter-card.png">
+</head>
+<body class=" signedIn home">
+<script id="flash-template" type="text/template">
+    <div class="notification is-primary for-user">
+        <a href="#" class="notification-body inherits-color" target="_blank" rel="noreferrer noopener"></a>
+    </div>
+</script>
+<div id="root" class="page">
+<div>
+<nav class="section phone:tw-sticky phone:tw-top-0 phone:tw-z-40 md:tw-py-0 widescreen:tw-mb-auto lg:tw-pb-8 tw-bg-blue-darkest xl:tw-bg-transparent">
+<div>
+
+<div id="nav-top" class="tw-flex tw-flex-row tw-justify-between tw-items-center tw-relative lg:tw-mb-6 md:tw-pt-8 md:tw-pb-4">
+<a href="/" class="md:tw-mb-4" @click.right.prevent="visitAssetsWebsite">
+<div class="xl:tw-hidden">
+<svg class="tw-fill-current tw-text-white" width="160.7" height="16" viewBox="0 0 361 36" xmlns="http://www.w3.org/2000/svg">
+<g fill="none" fill-rule="evenodd">
+<path d="M0 4.83h6.986v24.521h15.137v5.699H0V4.83zm53.374 23.744H39.36l-2.674 6.476h-7.159L42.981 4.83h6.9L63.38 35.05h-7.33l-2.675-6.476zm-2.199-5.31l-4.787-11.57-4.787 11.57h9.574zM92.949 35.05l-5.822-8.418H80.7v8.418h-6.986V4.83h13.067c2.674 0 4.995.446 6.965 1.339 1.969.892 3.485 2.158 4.55 3.799 1.063 1.64 1.595 3.583 1.595 5.828s-.54 4.18-1.617 5.806c-1.078 1.626-2.61 2.871-4.593 3.734l6.77 9.714H92.95zm-.13-19.254c0-1.698-.546-3-1.638-3.907-1.093-.907-2.688-1.36-4.787-1.36H80.7v10.534h5.693c2.099 0 3.694-.461 4.787-1.382 1.092-.92 1.638-2.216 1.638-3.885zm39.661 12.778h-14.016l-2.673 6.476h-7.16l13.456-30.22h6.9l13.498 30.22h-7.331l-2.674-6.476zm-2.2-5.31l-4.786-11.57-4.787 11.57h9.574zm36.556 12.304c-3.076 0-5.858-.67-8.344-2.008-2.487-1.338-4.442-3.194-5.865-5.569-1.424-2.374-2.135-5.058-2.135-8.05 0-2.994.711-5.678 2.135-8.052 1.423-2.375 3.378-4.231 5.865-5.57 2.486-1.338 5.282-2.007 8.387-2.007 2.617 0 4.981.46 7.094 1.382 2.114.92 3.889 2.245 5.326 3.971l-4.485 4.145c-2.04-2.36-4.57-3.54-7.59-3.54-1.868 0-3.536.41-5.002 1.23a8.742 8.742 0 0 0-3.429 3.432c-.819 1.468-1.229 3.137-1.229 5.008 0 1.87.41 3.54 1.23 5.008a8.742 8.742 0 0 0 3.428 3.432c1.466.82 3.134 1.23 5.002 1.23 3.02 0 5.55-1.194 7.59-3.583l4.485 4.145c-1.437 1.755-3.22 3.093-5.347 4.014-2.128.921-4.5 1.382-7.116 1.382zm73.888 0c-2.387 0-4.694-.324-6.922-.971-2.228-.648-4.018-1.49-5.369-2.526l2.372-5.267c1.294.95 2.832 1.713 4.614 2.288 1.783.576 3.565.864 5.348.864 1.984 0 3.45-.295 4.399-.885.948-.59 1.423-1.375 1.423-2.353 0-.72-.28-1.317-.841-1.792-.56-.475-1.28-.856-2.156-1.144-.877-.288-2.063-.604-3.558-.95-2.3-.546-4.183-1.093-5.65-1.64a9.178 9.178 0 0 1-3.773-2.633c-1.05-1.21-1.574-2.82-1.574-4.836 0-1.755.474-3.345 1.423-4.77.949-1.425 2.38-2.554 4.29-3.389 1.913-.834 4.249-1.252 7.009-1.252 1.926 0 3.81.23 5.65.691 1.84.46 3.45 1.122 4.83 1.986l-2.157 5.31c-2.789-1.583-5.578-2.375-8.366-2.375-1.955 0-3.4.317-4.334.95-.935.633-1.402 1.468-1.402 2.504s.54 1.806 1.617 2.31c1.078.503 2.724 1 4.938 1.49 2.3.546 4.183 1.093 5.65 1.64a9.355 9.355 0 0 1 3.773 2.59c1.05 1.18 1.574 2.777 1.574 4.792a8.258 8.258 0 0 1-1.445 4.727c-.963 1.425-2.408 2.554-4.334 3.389-1.926.835-4.27 1.252-7.03 1.252zm30.604-25.04h-9.66V4.83h26.306v5.699h-9.66v24.52h-6.986V10.53zm37.289 25.04c-2.386 0-4.694-.324-6.922-.971-2.228-.648-4.017-1.49-5.369-2.526l2.372-5.267c1.294.95 2.832 1.713 4.615 2.288 1.782.576 3.564.864 5.347.864 1.984 0 3.45-.295 4.399-.885.949-.59 1.423-1.375 1.423-2.353 0-.72-.28-1.317-.841-1.792-.56-.475-1.28-.856-2.156-1.144-.877-.288-2.063-.604-3.558-.95-2.3-.546-4.183-1.093-5.65-1.64a9.178 9.178 0 0 1-3.773-2.633c-1.05-1.21-1.574-2.82-1.574-4.836 0-1.755.474-3.345 1.423-4.77.949-1.425 2.38-2.554 4.291-3.389 1.912-.834 4.248-1.252 7.008-1.252 1.926 0 3.81.23 5.65.691 1.84.46 3.45 1.122 4.83 1.986l-2.157 5.31c-2.789-1.583-5.577-2.375-8.366-2.375-1.955 0-3.4.317-4.334.95-.935.633-1.402 1.468-1.402 2.504s.54 1.806 1.617 2.31c1.078.503 2.724 1 4.938 1.49 2.3.546 4.183 1.093 5.65 1.64a9.355 9.355 0 0 1 3.773 2.59c1.05 1.18 1.574 2.777 1.574 4.792a8.258 8.258 0 0 1-1.445 4.727c-.963 1.425-2.407 2.554-4.334 3.389-1.926.835-4.27 1.252-7.03 1.252z" fill="#FFF" fill-rule="nonzero"></path>
+<g fill="#FFF">
+<path d="M192.912 8.921l4.923 4.924a2.597 2.597 0 0 1-3.673 3.673l-4.923-4.924a2.597 2.597 0 1 1 3.673-3.673zM203.437 19.447l10.547 10.547a2.597 2.597 0 0 1-3.673 3.673L199.764 23.12a2.597 2.597 0 1 1 3.673-3.673z"></path>
+<path d="M190.416 8.255L218.753.893A2.672 2.672 0 0 1 222 2.767a2.592 2.592 0 0 1-1.846 3.199l-28.338 7.362a2.672 2.672 0 0 1-3.247-1.875 2.592 2.592 0 0 1 1.847-3.198z"></path>
+<path d="M209.592 31.104l7.363-28.337A2.592 2.592 0 0 1 220.153.92a2.672 2.672 0 0 1 1.875 3.247l-7.362 28.337a2.592 2.592 0 0 1-3.199 1.847 2.672 2.672 0 0 1-1.875-3.247z"></path>
+ </g>
+<path d="M208.62 18.067l-10.236 10.235a2.643 2.643 0 1 1-3.738-3.738l10.236-10.235a2.643 2.643 0 0 1 3.738 3.738zM193.38 33.306l-1.54 1.54a2.643 2.643 0 1 1-3.738-3.738l1.54-1.54a2.643 2.643 0 0 1 3.738 3.738z" fill="#53B5FF"></path>
+</g>
+</svg>
+</div>
+<div class="tw-hidden xl:tw-block">
+<svg width="322px" height="36px" viewBox="0 0 322 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="laracasts-logo">
+<g id="Brand-Doodling" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+<g transform="translate(-567.000000, -4407.000000)" id="Group-35-Copy-2">
+<g transform="translate(567.000000, 4394.000000)">
+<g id="Group-28-Copy" transform="translate(0.000000, 17.094408)" fill="#4A4A4A" fill-rule="nonzero">
+<g id="Group-7-Copy-4">
+<g id="Group-7-Copy-3">
+<path class="tw-fill-current" d="M0,0.735901868 L6.98625,0.735901868 L6.98625,25.2568775 L22.123125,25.2568775 L22.123125,30.9554141 L0,30.9554141 L0,0.735901868 Z M53.3743757,24.4798043 L39.3587507,24.4798043 L36.6850007,30.9554141 L29.5262507,30.9554141 L42.9812507,0.735901868 L49.8812507,0.735901868 L63.3793757,30.9554141 L56.0481257,30.9554141 L53.3743757,24.4798043 Z M51.1750007,19.1698043 L46.3881257,7.60004821 L41.6012507,19.1698043 L51.1750007,19.1698043 Z M92.9487514,30.9554141 L87.1268764,22.5371214 L80.7012514,22.5371214 L80.7012514,30.9554141 L73.7150014,30.9554141 L73.7150014,0.735901868 L86.7818764,0.735901868 C89.4556397,0.735901868 91.777179,1.18199497 93.7465639,2.07419455 C95.7159487,2.96639413 97.2324961,4.23272293 98.2962514,5.87321894 C99.3600067,7.51371495 99.8918764,9.45637845 99.8918764,11.7012677 C99.8918764,13.946157 99.3528193,15.8816254 98.2746889,17.5077311 C97.1965585,19.1338368 95.6656363,20.3785805 93.6818764,21.2419994 L100.452501,30.9554141 L92.9487514,30.9554141 Z M92.8193764,11.7012677 C92.8193764,10.0032105 92.2731318,8.7009064 91.1806264,7.7943165 C90.0881209,6.8877266 88.4925119,6.43443845 86.3937514,6.43443845 L80.7012514,6.43443845 L80.7012514,16.968097 L86.3937514,16.968097 C88.4925119,16.968097 90.0881209,16.5076138 91.1806264,15.5866336 C92.2731318,14.6656534 92.8193764,13.3705444 92.8193764,11.7012677 Z M132.480002,24.4798043 L118.464377,24.4798043 L115.790627,30.9554141 L108.631877,30.9554141 L122.086877,0.735901868 L128.986877,0.735901868 L142.485002,30.9554141 L135.153752,30.9554141 L132.480002,24.4798043 Z M130.280627,19.1698043 L125.493752,7.60004821 L120.706877,19.1698043 L130.280627,19.1698043 Z M166.836253,31.4734628 C163.759987,31.4734628 160.978453,30.8043232 158.491565,29.4660238 C156.004678,28.1277244 154.049697,26.2714015 152.626565,23.8969994 C151.203433,21.5225973 150.491878,18.8388437 150.491878,15.845658 C150.491878,12.8524723 151.203433,10.1687186 152.626565,7.7943165 C154.049697,5.41991439 156.004678,3.56359149 158.491565,2.22529211 C160.978453,0.886992738 163.774362,0.217853088 166.879378,0.217853088 C169.495641,0.217853088 171.860305,0.678336288 173.97344,1.5993165 C176.086576,2.52029672 177.861871,3.84418592 179.299378,5.57102382 L174.814378,9.71541406 C172.773118,7.35540226 170.243143,6.17541406 167.224378,6.17541406 C165.355618,6.17541406 163.688135,6.58553191 162.221878,7.40577992 C160.75562,8.22602792 159.612819,9.37004087 158.79344,10.8378531 C157.974061,12.3056653 157.564378,13.9749169 157.564378,15.845658 C157.564378,17.716399 157.974061,19.3856506 158.79344,20.8534628 C159.612819,22.3212751 160.75562,23.465288 162.221878,24.285536 C163.688135,25.105784 165.355618,25.5159019 167.224378,25.5159019 C170.243143,25.5159019 172.773118,24.3215236 174.814378,21.9327311 L179.299378,26.0771214 C177.861871,27.8327399 176.079388,29.1710192 173.951878,30.0919994 C171.824367,31.0129796 169.452516,31.4734628 166.836253,31.4734628 Z M240.723754,31.4734628 C238.337492,31.4734628 236.030328,31.1496856 233.802192,30.5021214 C231.574055,29.8545572 229.784386,29.0127363 228.433129,27.9766336 L230.805004,22.7098043 C232.098761,23.6595652 233.63687,24.4222405 235.419379,24.9978531 C237.201888,25.5734657 238.98437,25.8612677 240.766879,25.8612677 C242.750639,25.8612677 244.216874,25.5662707 245.165629,24.9762677 C246.114384,24.3862648 246.588754,23.6020043 246.588754,22.6234628 C246.588754,21.9039471 246.308444,21.3067579 245.747817,20.8318775 C245.187189,20.3569971 244.468446,19.9756594 243.591567,19.6878531 C242.714687,19.4000468 241.528762,19.0834646 240.033754,18.738097 C237.733743,18.191265 235.850636,17.6444412 234.384379,17.0976092 C232.918122,16.5507772 231.660322,15.6729811 230.610942,14.4641946 C229.561561,13.255408 229.036879,11.6437168 229.036879,9.6290726 C229.036879,7.87345407 229.511249,6.28334802 230.460004,4.85870675 C231.408759,3.43406548 232.839057,2.30444263 234.750942,1.46980431 C236.662826,0.635165988 238.99874,0.217853088 241.758754,0.217853088 C243.685014,0.217853088 245.56812,0.448094688 247.408129,0.908584795 C249.248138,1.3690749 250.858122,2.0310195 252.238129,2.89443845 L250.081879,8.20443845 C247.293115,6.62150371 244.504393,5.83004821 241.715629,5.83004821 C239.760619,5.83004821 238.315946,6.14663041 237.381567,6.77980431 C236.447187,7.4129782 235.980004,8.247604 235.980004,9.28370675 C235.980004,10.3198095 236.519061,11.0896798 237.597192,11.5933409 C238.675322,12.0970019 240.321243,12.5934604 242.535004,13.0827311 C244.835016,13.6295631 246.718122,14.1763869 248.184379,14.7232189 C249.650636,15.2700509 250.908436,16.1334569 251.957817,17.3134628 C253.007197,18.4934687 253.531879,20.0907698 253.531879,22.1054141 C253.531879,23.832252 253.050321,25.4079679 252.087192,26.8326092 C251.124062,28.2572505 249.679389,29.3868733 247.753129,30.2215116 C245.826869,31.0561499 243.483768,31.4734628 240.723754,31.4734628 Z M271.32813,6.43443845 L261.66813,6.43443845 L261.66813,0.735901868 L287.97438,0.735901868 L287.97438,6.43443845 L278.31438,6.43443845 L278.31438,30.9554141 L271.32813,30.9554141 L271.32813,6.43443845 Z M308.61688,31.4734628 C306.230619,31.4734628 303.923454,31.1496856 301.695318,30.5021214 C299.467182,29.8545572 297.677512,29.0127363 296.326255,27.9766336 L298.69813,22.7098043 C299.991887,23.6595652 301.529997,24.4222405 303.312505,24.9978531 C305.095014,25.5734657 306.877497,25.8612677 308.660005,25.8612677 C310.643765,25.8612677 312.110001,25.5662707 313.058755,24.9762677 C314.00751,24.3862648 314.48188,23.6020043 314.48188,22.6234628 C314.48188,21.9039471 314.201571,21.3067579 313.640943,20.8318775 C313.080315,20.3569971 312.361572,19.9756594 311.484693,19.6878531 C310.607814,19.4000468 309.421888,19.0834646 307.92688,18.738097 C305.626869,18.191265 303.743763,17.6444412 302.277505,17.0976092 C300.811248,16.5507772 299.553448,15.6729811 298.504068,14.4641946 C297.454688,13.255408 296.930005,11.6437168 296.930005,9.6290726 C296.930005,7.87345407 297.404376,6.28334802 298.35313,4.85870675 C299.301885,3.43406548 300.732183,2.30444263 302.644068,1.46980431 C304.555953,0.635165988 306.891867,0.217853088 309.65188,0.217853088 C311.57814,0.217853088 313.461246,0.448094688 315.301255,0.908584795 C317.141265,1.3690749 318.751249,2.0310195 320.131255,2.89443845 L317.975005,8.20443845 C315.186242,6.62150371 312.397519,5.83004821 309.608755,5.83004821 C307.653746,5.83004821 306.209073,6.14663041 305.274693,6.77980431 C304.340313,7.4129782 303.87313,8.247604 303.87313,9.28370675 C303.87313,10.3198095 304.412188,11.0896798 305.490318,11.5933409 C306.568448,12.0970019 308.214369,12.5934604 310.42813,13.0827311 C312.728142,13.6295631 314.611248,14.1763869 316.077505,14.7232189 C317.543763,15.2700509 318.801563,16.1334569 319.850943,17.3134628 C320.900323,18.4934687 321.425005,20.0907698 321.425005,22.1054141 C321.425005,23.832252 320.943448,25.4079679 319.980318,26.8326092 C319.017188,28.2572505 317.572515,29.3868733 315.646255,30.2215116 C313.719996,31.0561499 311.376894,31.4734628 308.61688,31.4734628 Z" id="LARACASTS"></path>
+</g>
+</g>
+</g>
+<g id="Group-34" transform="translate(205.405592, 30.500000) rotate(-45.000000) translate(-205.405592, -30.500000) translate(180.905592, 12.000000)">
+<g id="Group-96-Copy-4" transform="translate(15.000000, 0.000000)" fill="#4A4A4A" fill-rule="nonzero">
+<path class="tw-fill-current" d="M0.652771855,4.48401956 L7.61588486,4.48401956 C9.0501766,4.48401956 10.2128998,5.64674274 10.2128998,7.08103448 L10.2128998,7.08103448 C10.2128998,8.51532622 9.0501766,9.67804941 7.61588486,9.67804941 L0.652771855,9.67804941 C-0.781519883,9.67804941 -1.94424307,8.51532622 -1.94424307,7.08103448 L-1.94424307,7.08103448 C-1.94424307,5.64674274 -0.781519883,4.48401956 0.652771855,4.48401956 Z" id="Rectangle-Copy-73" transform="translate(4.134328, 7.081034) rotate(-270.000000) translate(-4.134328, -7.081034) "></path>
+<path class="tw-fill-current" d="M-3.32366493,23.3455138 L11.5923216,23.3455138 C13.0266134,23.3455138 14.1893366,24.508237 14.1893366,25.9425287 L14.1893366,25.9425287 C14.1893366,27.3768205 13.0266134,28.5395437 11.5923216,28.5395437 L-3.32366493,28.5395437 C-4.75795666,28.5395437 -5.92067985,27.3768205 -5.92067985,25.9425287 L-5.92067985,25.9425287 C-5.92067985,24.508237 -4.75795666,23.3455138 -3.32366493,23.3455138 Z" id="Rectangle-Copy-74" transform="translate(4.134328, 25.942529) rotate(-270.000000) translate(-4.134328, -25.942529) "></path>
+<path class="tw-fill-current" d="M2.10283241,8.32513323 L31.3798551,8.54792872 C32.8395401,8.5590368 34.0200893,9.73966424 34.0311007,11.19935 L34.0311007,11.19935 C34.0418988,12.6307735 32.8902544,13.7999251 31.4588309,13.8107232 C31.4457393,13.810822 31.4326472,13.8108215 31.4195556,13.8107219 L2.14253293,13.5879264 C0.682847917,13.5768183 -0.497701276,12.3961909 -0.508712595,10.9365051 L-0.508712595,10.9365051 C-0.519510713,9.50508166 0.632133688,8.33593005 2.06355717,8.32513193 C2.07664873,8.32503317 2.08974085,8.3250336 2.10283241,8.32513323 Z" id="Rectangle-Copy-77" transform="translate(16.761194, 11.067928) rotate(-330.000000) translate(-16.761194, -11.067928) "></path>
+<path class="tw-fill-current" d="M2.14253293,23.4329862 L31.4195556,23.2101907 C32.8509784,23.1992977 34.0202064,24.3508646 34.0310994,25.7822874 C34.031199,25.7953789 34.0311994,25.808471 34.0311007,25.8215626 L34.0311007,25.8215626 C34.0200893,27.2812484 32.8395401,28.4618758 31.3798551,28.4729839 L2.10283241,28.6957794 C0.671409647,28.7066724 -0.497818295,27.5551055 -0.508711293,26.1236827 C-0.508810919,26.1105911 -0.508811352,26.097499 -0.508712595,26.0844075 L-0.508712595,26.0844075 C-0.497701276,24.6247217 0.682847917,23.4440943 2.14253293,23.4329862 Z" id="Rectangle-Copy-78" transform="translate(16.761194, 25.952985) rotate(-30.000000) translate(-16.761194, -25.952985) "></path>
+</g>
+<path d="M11.8965885,15.8875205 L26.3720682,15.8875205 C27.8316779,15.8875205 29.0149254,17.070768 29.0149254,18.5303777 L29.0149254,18.5303777 C29.0149254,19.9899874 27.8316779,21.1732348 26.3720682,21.1732348 L11.8965885,21.1732348 C10.4369788,21.1732348 9.25373134,19.9899874 9.25373134,18.5303777 L9.25373134,18.5303777 C9.25373134,17.070768 10.4369788,15.8875205 11.8965885,15.8875205 Z" id="Rectangle-Copy-75" fill="#53B5FF" transform="translate(19.134328, 18.530378) rotate(-180.000000) translate(-19.134328, -18.530378) "></path>
+<path d="M2.64285714,15.8875205 L4.81982942,15.8875205 C6.27943912,15.8875205 7.46268657,17.070768 7.46268657,18.5303777 L7.46268657,18.5303777 C7.46268657,19.9899874 6.27943912,21.1732348 4.81982942,21.1732348 L2.64285714,21.1732348 C1.18324745,21.1732348 1.03651537e-13,19.9899874 1.03472786e-13,18.5303777 L1.03472786e-13,18.5303777 C1.03294035e-13,17.070768 1.18324745,15.8875205 2.64285714,15.8875205 Z" id="Rectangle-Copy-76" fill="#53B5FF" transform="translate(3.731343, 18.530378) rotate(-180.000000) translate(-3.731343, -18.530378) "></path>
+</g>
+</g>
+</g>
+</g>
+</svg>
+</div>
+</a>
+<div class="md:tw-hidden tw-flex tw-items-start">
+<search-button id="mobile-search" class="tw-mr-4 tw-inline-flex">
+<button id="search-trigger" class="tw-leading-none" title="Tip: press / or s anywhere to instantly activate me.">
+<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 15 15">
+<g fill="none" fill-rule="evenodd">
+<path d="M-2-2h20v20H-2z"></path>
+<path fill="#FFF" d="M10.443 9.232h-.638l-.226-.218A5.223 5.223 0 0 0 10.846 5.6 5.247 5.247 0 1 0 5.6 10.846c1.3 0 2.494-.476 3.414-1.267l.218.226v.638l4.036 4.028 1.203-1.203-4.028-4.036zm-4.843 0A3.627 3.627 0 0 1 1.967 5.6 3.627 3.627 0 0 1 5.6 1.967 3.627 3.627 0 0 1 9.232 5.6 3.627 3.627 0 0 1 5.6 9.232z"></path>
+</g>
+</svg>
+</button>
+</search-button>
+<div class="tw-mr-4" v-cloak>
+<account-nav-modal gravatar="//www.gravatar.com/avatar/04806e49d4fed960d7fe260c5962689b?s=100&amp;d=https%3A%2F%2Fs3.amazonaws.com%2Flaracasts%2Fimages%2Fforum%2Favatars%2Favatar-16.png" :config="{
+                                    isBillable: true,
+                                    isActive: true,
+                                    hasInvoices: true,
+                                    needsNewCardNumber: false
+                                }">
+<div slot="plan-label" class="tw-flex tw-items-center tw-justify-center">
+<div class="md:tw-ml-3">
+<a href="/settings/subscription/plan" class="tw-button tw-text-2xs is-blue tw-flex tw-p-0 tw-pr-4 tw-leading-none tw-items-center">
+<span class="tw-mr-2">
+<img src="/images/icons/plans/monthly-badge.svg" alt="Monthly">
+</span>
+<span class="tw-flex-1 tw-text-center">
+Monthly
+</span>
+</a>
+</div>
+</div>
+</account-nav-modal>
+</div>
+<nav-modal></nav-modal>
+</div>
+<div class="tw-hidden md:tw-block tw-relative tw--mt-6">
+<div class="tw-flex tw-items-center">
+<search-button id="search-trigger" class="tw-inline-flex tw-mr-1">
+<button id="search-trigger" class="tw-leading-none" title="Tip: press / or s anywhere to instantly activate me.">
+<svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 15 15">
+<g fill="none" fill-rule="evenodd">
+<path d="M-2-2h20v20H-2z"></path>
+<path fill="#FFF" d="M10.443 9.232h-.638l-.226-.218A5.223 5.223 0 0 0 10.846 5.6 5.247 5.247 0 1 0 5.6 10.846c1.3 0 2.494-.476 3.414-1.267l.218.226v.638l4.036 4.028 1.203-1.203-4.028-4.036zm-4.843 0A3.627 3.627 0 0 1 1.967 5.6 3.627 3.627 0 0 1 5.6 1.967 3.627 3.627 0 0 1 9.232 5.6 3.627 3.627 0 0 1 5.6 9.232z"></path>
+</g>
+</svg>
+</button>
+</search-button>
+<div>
+<ul class="tw-flex tw-items-center tw-cursor-pointer tw-ml-4 tw-relative">
+<li>
+<nav-menu v-cloak>
+<img src="//www.gravatar.com/avatar/04806e49d4fed960d7fe260c5962689b?s=100&amp;d=https%3A%2F%2Fs3.amazonaws.com%2Flaracasts%2Fimages%2Fforum%2Favatars%2Favatar-16.png" class="is-circle " alt="Brunomasquio avatar" width="35">
+
+<div slot="links">
+<div class="tw-inline-flex tw-flex-col tw-items-center tw-text-center" style="width: 300px">
+<a href="/@Brunomasquio" class="tw-block">
+<img src="//www.gravatar.com/avatar/04806e49d4fed960d7fe260c5962689b?s=100&amp;d=https%3A%2F%2Fs3.amazonaws.com%2Flaracasts%2Fimages%2Fforum%2Favatars%2Favatar-16.png" class="is-circle" alt="Brunomasquio's avatar" width="70">
+</a>
+<div class="tw-mb-8 tw-mt-1">
+<a href="/settings/subscription/plan" class="tw-button tw-text-2xs is-blue tw-flex tw-p-0 tw-pr-4 tw-leading-none tw-items-center">
+<span class="tw-mr-2">
+<img src="/images/icons/plans/monthly-badge.svg" alt="Monthly">
+</span>
+<span class="tw-flex-1 tw-text-center">Monthly</span>
+</a>
+</div>
+<ul class="tw-text-center tw-w-full">
+<li class="tw-py-2 ">
+<a href="/search?refinement=type&name=episode" class="tw-block hover:tw-text-grey-dark hover:tw-bg-grey-panel tw-rounded tw-py-2 tw-text-grey-dark tw-font-bold tw-uppercase">
+What's New
+</a>
+</li>
+<li class="tw-py-2 ">
+<a href="/search?watchLaters" class="tw-block hover:tw-text-grey-dark hover:tw-bg-grey-panel tw-rounded tw-py-2 tw-text-grey-dark tw-font-bold tw-uppercase">
+Watchlist
+</a>
+</li>
+<li class="tw-py-2 ">
+<a href="/search?favorites" class="tw-block hover:tw-text-grey-dark hover:tw-bg-grey-panel tw-rounded tw-py-2 tw-text-grey-dark tw-font-bold tw-uppercase">
+Favorites
+</a>
+</li>
+<li class="tw-py-2 ">
+<a href="/discuss?me" class="tw-block hover:tw-text-grey-dark hover:tw-bg-grey-panel tw-rounded tw-py-2 tw-text-grey-dark tw-font-bold tw-uppercase">
+Questions
+</a>
+</li>
+<li class="tw-py-2 ">
+<a href="/@Brunomasquio" class="tw-block hover:tw-text-grey-dark hover:tw-bg-grey-panel tw-rounded tw-py-2 tw-text-grey-dark tw-font-bold tw-uppercase">
+Profile
+</a>
+</li>
+<li class="tw-py-2 ">
+<a href="/settings/account" class="tw-block hover:tw-text-grey-dark hover:tw-bg-grey-panel tw-rounded tw-py-2 tw-text-grey-dark tw-font-bold tw-uppercase">
+Settings
+</a>
+</li>
+<li class="tw-py-2">
+<a href="/logout" class="tw-block hover:tw-text-grey-dark hover:tw-bg-grey-panel tw-rounded tw-py-2 tw-text-grey-dark tw-font-bold tw-uppercase">
+Logout
+</a>
+</li>
+</ul>
+</div>
+</div>
+</nav-menu>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</nav>
+<div class="home-header section mobile:tw-pb-9 tw-bg-blue-darkest xl:tw-bg-transparent">
+<div class="tw-absolute header-social-links tw-z-10">
+<div class="tw-hidden lg:tw-flex lg:tw-flex-col lg:tw-h-full lg:tw-items-start lg:tw-justify-center">
+<a href="https://www.youtube.com/laracastsofficial" target="_blank" rel="noreferrer">
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="19" viewBox="0 0 16 19" class="tw-mb-2 tw-text-grey hover:tw-text-blue tw-transition-all">
+<g class="tw-fill-current" fill-rule="nonzero">
+<path d="M6.4 0H5.371l-.685 2.629L4 0H2.857c.229.686.457 1.257.686 1.943.343.914.571 1.714.571 2.171v2.743h1.029V4.114L6.4 0zm2.743 5.143V3.429c0-.572-.114-.915-.343-1.258-.229-.342-.571-.457-1.029-.457-.457 0-.8.229-1.028.572-.229.228-.343.571-.343 1.143v1.828c0 .572.114.914.343 1.143.228.343.571.457 1.028.457.458 0 .8-.228 1.029-.571.229-.115.343-.572.343-1.143zm-.914.228c0 .458-.115.686-.458.686-.342 0-.457-.228-.457-.686V3.2c0-.457.115-.686.457-.686.343 0 .458.229.458.686v2.171zm4.342 1.486V1.714h-.914V5.6c-.228.343-.343.457-.571.457a.246.246 0 0 1-.229-.228V1.714h-.914v4c0 .343 0 .572.114.8 0 .229.229.343.572.343.342 0 .685-.228 1.028-.571v.571h.914zM13.029 12c-.343 0-.458.229-.458.686v.457h.915v-.457c0-.457-.115-.686-.457-.686zM9.714 12c-.114 0-.343.114-.457.229v3.085c.114.115.343.229.457.229.229 0 .343-.229.343-.686v-2.171c0-.457-.114-.686-.343-.686z" />
+<path d="M15.314 9.486C15.086 8.686 14.4 8 13.714 8 11.886 7.771 9.943 7.771 8 7.771c-1.943 0-3.771 0-5.714.229-.686 0-1.372.686-1.6 1.486-.229 1.143-.229 2.4-.229 3.543 0 1.142 0 2.4.229 3.542.228.8.8 1.372 1.6 1.486 1.943.229 3.771.229 5.714.229 1.943 0 3.771 0 5.714-.229.8-.114 1.486-.686 1.6-1.486.229-1.142.229-2.4.229-3.542 0-1.143 0-2.4-.229-3.543zM4.8 10.514H3.657v5.829H2.63v-5.829H1.6V9.486h3.2v1.028zm2.743 5.829h-.914v-.572c-.343.458-.686.572-1.029.572-.343 0-.457-.114-.571-.343 0-.114-.115-.343-.115-.8v-4h.915v4c0 .114.114.229.228.229.229 0 .343-.115.572-.458V11.2h.914v5.143zm3.428-1.6c0 .457 0 .8-.114 1.028-.114.343-.343.572-.686.572-.342 0-.685-.229-.914-.572v.458h-.914V9.486h.914v2.171c.343-.343.572-.571.914-.571.343 0 .572.228.686.571.114.229.114.572.114 1.029v2.057zm3.429-.8h-1.829v.914c0 .457.115.686.458.686.228 0 .342-.114.457-.343v-.571h.914V15.314c0 .229-.114.343-.229.572-.228.343-.571.571-1.142.571-.458 0-.8-.228-1.143-.571-.229-.229-.343-.686-.343-1.143v-1.714c0-.572.114-.915.228-1.143.229-.343.572-.572 1.143-.572.457 0 .8.229 1.029.572.228.228.228.685.228 1.143v.914h.229z" />
+</g>
+</svg>
+</a>
+<a href="https://twitter.com/laracasts" target="_blank" rel="noreferrer">
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" class="tw-mb-2 tw-text-grey hover:tw-text-blue tw-transition-all">
+<path class="tw-fill-current" fill-rule="nonzero" d="M9 0C4.037 0 0 4.037 0 9c0 4.962 4.037 9 9 9 4.962 0 9-4.038 9-9 0-4.963-4.037-9-9-9zm4.015 6.94c.004.09.006.18.006.27 0 2.737-2.083 5.892-5.894 5.892a5.86 5.86 0 0 1-3.175-.93 4.158 4.158 0 0 0 3.067-.858 2.074 2.074 0 0 1-1.936-1.439 2.088 2.088 0 0 0 .936-.034 2.072 2.072 0 0 1-1.662-2.032v-.026c.28.155.6.249.938.26a2.07 2.07 0 0 1-.64-2.766 5.882 5.882 0 0 0 4.269 2.165 2.071 2.071 0 0 1 3.53-1.89 4.135 4.135 0 0 0 1.316-.503 2.08 2.08 0 0 1-.912 1.146c.419-.05.82-.16 1.19-.326-.277.415-.628.78-1.033 1.071z" />
+</svg>
+</a>
+<a href="https://github.com/laracasts" target="_blank" rel="noreferrer">
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 30 29" class="tw-mb-2 tw-text-grey hover:tw-text-blue tw-transition-all">
+<path class="tw-fill-current" fill-rule="nonzero" d="M27.959 7.434a14.866 14.866 0 0 0-5.453-5.414C20.21.69 17.703.025 14.984.025c-2.718 0-5.226.665-7.521 1.995A14.864 14.864 0 0 0 2.01 7.434C.67 9.714 0 12.202 0 14.901c0 3.242.953 6.156 2.858 8.746 1.906 2.589 4.367 4.38 7.385 5.375.351.064.611.019.78-.136a.755.755 0 0 0 .254-.58l-.01-1.047c-.007-.658-.01-1.233-.01-1.723l-.448.077a5.765 5.765 0 0 1-1.083.068 8.308 8.308 0 0 1-1.356-.136 3.04 3.04 0 0 1-1.308-.58c-.403-.304-.689-.701-.858-1.192l-.195-.445a4.834 4.834 0 0 0-.614-.988c-.28-.362-.563-.607-.85-.736l-.136-.097a1.428 1.428 0 0 1-.253-.233 1.062 1.062 0 0 1-.176-.271c-.039-.09-.007-.165.098-.223.104-.059.292-.087.566-.087l.39.058c.26.052.582.206.965.465.384.258.7.594.947 1.007.299.53.66.933 1.082 1.21.423.278.85.417 1.278.417.43 0 .8-.032 1.112-.097a3.9 3.9 0 0 0 .878-.29c.117-.866.436-1.53.956-1.996a13.447 13.447 0 0 1-2-.348 7.995 7.995 0 0 1-1.833-.756 5.244 5.244 0 0 1-1.571-1.298c-.416-.516-.758-1.195-1.024-2.034-.267-.84-.4-1.808-.4-2.905 0-1.563.514-2.893 1.541-3.99-.481-1.176-.436-2.493.137-3.952.377-.116.936-.03 1.678.261.741.291 1.284.54 1.629.746.345.207.621.381.83.523a13.948 13.948 0 0 1 3.745-.503c1.288 0 2.537.168 3.747.503l.741-.464c.507-.31 1.106-.595 1.795-.853.69-.258 1.216-.33 1.58-.213.586 1.46.638 2.777.156 3.951 1.028 1.098 1.542 2.428 1.542 3.99 0 1.099-.134 2.07-.4 2.916-.267.846-.611 1.524-1.034 2.034-.423.51-.95.94-1.58 1.288a8.01 8.01 0 0 1-1.834.756c-.592.155-1.259.271-2 .349.676.58 1.014 1.498 1.014 2.75v4.087c0 .232.081.426.244.58.163.155.42.2.77.136 3.019-.994 5.48-2.786 7.386-5.375 1.905-2.59 2.858-5.504 2.858-8.746 0-2.698-.671-5.187-2.01-7.466z"></path>
+</svg>
+</a>
+</div>
+</div>
+<div class="container tw-mx-auto lg:tw-flex lg:tw--mt-4 phone:tw-mt-2">
+<div>
+<div class="header-description">
+<img src="/images/home/main-illustration.svg?v=3" class="lg:tw-hidden" alt="Laracasts Illustration" style="width: 85%; max-width: 500px;">
+<h1 class="header-title">
+Screencasts for the<br>
+<strong class="inherits-color">Modern Developer</strong>
+</h1>
+<p class="header-description-body widescreen:tw-pr-10">
+Push your web development skills to the next level, through expert screencasts on Laravel, Vue, and so much more.
+<br class="tw-hidden xl:tw-inline">
+<a href="/series?curated" class="tw-text-transparent-50 xl:tw-text-grey-dark tw-font-bold">Ready to binge?</a>
+</p>
+<div class="tw-mx-auto">
+<a href="/series?curated" class="tw-block tablet:tw-inline-block tw-button is-blue lg:tw-px-5 tw-mb-4 tablet:tw-mb-0 tablet:tw-mr-4">
+Browse Courses
+</a>
+<a href="/discuss" class="tw-block tablet:tw-inline-block tw-button tw-border-transparent xl:tw-border-grey tw-border tw-bg-white tw-text-black hover:tw-border-blue hover:tw-text-blue lg:tw-px-5">
+Discussion Forum
+</a>
+</div>
+</div>
+</div>
+<img src="/images/home/main-illustration.svg?v=3" class="tw-hidden lg:tw-block header-illustration lg:tw-absolute lg:tw-top-0" alt="Laracasts Illustration" style="cursor: pointer" @click="$modal.show('promo-modal')">
+</div>
+</div>
+<scroll-link id="continue-forward-arrow" href="#home-skills" class="bounce tw-flex tw-justify-center tw-relative">
+<img src="/images/logo-arrow-down.svg?v=2" alt="Laracasts Read More Arrow" class="tw-hidden xl:tw-block">
+</scroll-link>
+<section id="home-skills" class="md:tw-pb-0 lg:tw-pt-9 md:tw-mb-10">
+<div class="container">
+<div class="tw-hidden lg:tw-flex tw-justify-center md:tw-mb-8 tw-pb-3 tw-text-center">
+<h3 class="centered-heading lg:tw-max-w-full tw-mb-0">The most concise screencasts for the working developer.</h3>
+</div>
+<div class="tw-flex md:tw-justify-center tw-pb-5 md:tw-pb-10">
+<div class="home-skills-stat tw-flex-1 md:tw-flex-none md:tw-mb-0 border-long-dash tw-py-3 md:tw-px-2 md:tw-mx-5 tw-rounded-lg tw-text-center">
+<strong class="tw-block tw-text-2xl md:tw-text-3xl tw-font-normal">
+<count :end="258" :increment="5"></count>
+</strong>
+<span class="tw-text-grey-dark tw-text-xs md:tw-text-sm">Hours <span class="tw-hidden md:tw-inline">of Learning</span></span>
+</div>
+<div class="home-skills-stat tw-flex-1 md:tw-flex-none md:tw-mb-0 border-long-dash tw-py-3 md:tw-px-2 tw-mx-5 tw-rounded-lg tw-text-center">
+<strong class="tw-block tw-text-2xl md:tw-text-3xl tw-font-normal">
+<count :end="1519" :increment="50"></count>
+</strong>
+<span class="tw-text-grey-dark tw-text-xs md:tw-text-sm">Lessons</span>
+</div>
+<div class="home-skills-stat tw-flex-1 md:tw-flex-none border-long-dash tw-py-3 md:tw-px-2 md:tw-mx-5 tw-rounded-lg tw-text-center">
+<strong class="tw-block tw-text-2xl md:tw-text-3xl tw-font-normal">
+<count :end="95" :increment="3"></count>
+</strong>
+<span class="tw-text-grey-dark tw-text-xs md:tw-text-sm">Full Series</span>
+</div>
+</div>
+<div class="lg:tw-flex lg:tw-justify-between xl:tw-justify-around xl:tw-mx-8 lg:tw-mb-8">
+<div class="skill-card is-laravel tw-relative tw-rounded-lg lg:tw-rounded-none tw-mb-6 lg:tw-mb-0 lg:tw-mx-2 lg:tw-mx-0 tw-flex lg:tw-flex-col">
+<div class="skill-card-top tw-text-center tw-py-3 tw-pl-8 tw-pr-6 lg:tw-px-8 tw-rounded-lg tw-relative">
+<a href="/skills/laravel" class="tw-block">
+<img class="skill-card-thumbnail" src="/images/series/2018/laravel-default.svg?v=4" alt="Laravel Skill">
+</a>
+<h4 class="tw-text-lg tw-leading-tight tw-text-center tw-tracking-tight">
+<a href="/skills/laravel" class="tw-text-white hover:tw-text-white link" style="text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);">Laravel</a>
+</h4>
+</div>
+<div class="skill-card-meta tw-flex-1 tw-flex tw-flex-col tw-justify-center lg:tw-flex-none tw-pr-5 lg:tw-px-6 tw-rounded-lg tw-rounded-t-none tw-border-grey tw-border-t-0">
+<div class="skill-card-meta-details tw-flex tw-items-center tw-justify-around tw-rounded tw-rounded-t-none lg:tw-py-3 tw-mb-2 lg:tw-mb-0">
+<div class="tw-text-center">
+<a href="/skills/laravel" class="tw-block">
+<span class="tw-block tw--mb-1 tw-text-2xl lg:tw-text-lg tw-text-white lg:tw-text-grey-darkest">20</span>
+<span class="tw-text-transparent-50 lg:tw-text-grey-dark tw-text-sm lg:tw-text-2xs">series</span>
+</a>
+</div>
+<div class="tw-h-6 tw-bg-transparent-25 lg:tw-bg-grey-light" style="width: 1px"></div>
+<div class="tw-text-center">
+<span class="tw-block tw-text-2xl lg:tw-text-lg tw-text-white lg:tw-text-grey-darkest tw--mb-1">1094</span>
+<span class="tw-text-transparent-50 lg:tw-text-grey-dark tw-text-sm lg:tw-text-2xs">videos</span>
+</div>
+</div>
+<div class="skill-card-meta-explore tw-pt-3 lg:tw-py-3 tw-text-center">
+<a href="/skills/laravel" class="skill-card-explore-button tw-bg-transparent-10 lg:tw-w-1/2 lg:tw-mx-auto lg:tw-w-full tw-py-3 lg:tw-py-1 tw-px-2 tw-rounded-full tw-text-white tw-font-bold tw-flex tw-items-center tw-justify-center tw-text-xs lg:tw-text-sm tw-max-w-xs tw-mx-auto">
+<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" class="tw-hidden lg:tw-inline tw-mr-2">
+<g fill="none" fill-rule="evenodd">
+<path d="M-1-1h18v18H-1z"></path>
+<path class="tw-fill-current" d="M6 10.875L10.5 7.5 6 4.125v6.75zM7.5 0C3.36 0 0 3.36 0 7.5 0 11.64 3.36 15 7.5 15c4.14 0 7.5-3.36 7.5-7.5C15 3.36 11.64 0 7.5 0zm0 13.5c-3.307 0-6-2.693-6-6s2.693-6 6-6 6 2.693 6 6-2.693 6-6 6z"></path>
+</g>
+</svg>
+<span class="tw-uppercase lg:tw-normal-case">Explore <span class="lg:tw-hidden">Laravel</span></span>
+</a>
+</div>
+</div>
+</div>
+<div class="skill-card is-php tw-relative tw-rounded-lg lg:tw-rounded-none tw-mb-6 lg:tw-mb-0 lg:tw-mx-2 lg:tw-mx-0 tw-flex lg:tw-flex-col">
+<div class="skill-card-top tw-text-center tw-py-3 tw-pl-8 tw-pr-6 lg:tw-px-8 tw-rounded-lg tw-relative">
+<a href="/skills/php" class="tw-block">
+<img class="skill-card-thumbnail" src="/images/series/2018/php-default.svg?v=4" alt="PHP Skill">
+</a>
+<h4 class="tw-text-lg tw-leading-tight tw-text-center tw-tracking-tight">
+<a href="/skills/php" class="tw-text-white hover:tw-text-white link" style="text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);">PHP</a>
+</h4>
+</div>
+<div class="skill-card-meta tw-flex-1 tw-flex tw-flex-col tw-justify-center lg:tw-flex-none tw-pr-5 lg:tw-px-6 tw-rounded-lg tw-rounded-t-none tw-border-grey tw-border-t-0">
+<div class="skill-card-meta-details tw-flex tw-items-center tw-justify-around tw-rounded tw-rounded-t-none lg:tw-py-3 tw-mb-2 lg:tw-mb-0">
+<div class="tw-text-center">
+<a href="/skills/php" class="tw-block">
+<span class="tw-block tw--mb-1 tw-text-2xl lg:tw-text-lg tw-text-white lg:tw-text-grey-darkest">14</span>
+<span class="tw-text-transparent-50 lg:tw-text-grey-dark tw-text-sm lg:tw-text-2xs">series</span>
+</a>
+</div>
+<div class="tw-h-6 tw-bg-transparent-25 lg:tw-bg-grey-light" style="width: 1px"></div>
+<div class="tw-text-center">
+<span class="tw-block tw-text-2xl lg:tw-text-lg tw-text-white lg:tw-text-grey-darkest tw--mb-1">322</span>
+<span class="tw-text-transparent-50 lg:tw-text-grey-dark tw-text-sm lg:tw-text-2xs">videos</span>
+</div>
+</div>
+<div class="skill-card-meta-explore tw-pt-3 lg:tw-py-3 tw-text-center">
+<a href="/skills/php" class="skill-card-explore-button tw-bg-transparent-10 lg:tw-w-1/2 lg:tw-mx-auto lg:tw-w-full tw-py-3 lg:tw-py-1 tw-px-2 tw-rounded-full tw-text-white tw-font-bold tw-flex tw-items-center tw-justify-center tw-text-xs lg:tw-text-sm tw-max-w-xs tw-mx-auto">
+ <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" class="tw-hidden lg:tw-inline tw-mr-2">
+<g fill="none" fill-rule="evenodd">
+<path d="M-1-1h18v18H-1z"></path>
+<path class="tw-fill-current" d="M6 10.875L10.5 7.5 6 4.125v6.75zM7.5 0C3.36 0 0 3.36 0 7.5 0 11.64 3.36 15 7.5 15c4.14 0 7.5-3.36 7.5-7.5C15 3.36 11.64 0 7.5 0zm0 13.5c-3.307 0-6-2.693-6-6s2.693-6 6-6 6 2.693 6 6-2.693 6-6 6z"></path>
+</g>
+</svg>
+<span class="tw-uppercase lg:tw-normal-case">Explore <span class="lg:tw-hidden">PHP</span></span>
+</a>
+</div>
+</div>
+</div>
+<div class="skill-card is-testing tw-relative tw-rounded-lg lg:tw-rounded-none tw-mb-6 lg:tw-mb-0 lg:tw-mx-2 lg:tw-mx-0 tw-flex lg:tw-flex-col">
+<div class="skill-card-top tw-text-center tw-py-3 tw-pl-8 tw-pr-6 lg:tw-px-8 tw-rounded-lg tw-relative">
+<a href="/skills/testing" class="tw-block">
+<img class="skill-card-thumbnail" src="/images/series/2018/testing-default.svg?v=4" alt="Testing Skill">
+</a>
+<h4 class="tw-text-lg tw-leading-tight tw-text-center tw-tracking-tight">
+<a href="/skills/testing" class="tw-text-white hover:tw-text-white link" style="text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);">Testing</a>
+</h4>
+</div>
+<div class="skill-card-meta tw-flex-1 tw-flex tw-flex-col tw-justify-center lg:tw-flex-none tw-pr-5 lg:tw-px-6 tw-rounded-lg tw-rounded-t-none tw-border-grey tw-border-t-0">
+<div class="skill-card-meta-details tw-flex tw-items-center tw-justify-around tw-rounded tw-rounded-t-none lg:tw-py-3 tw-mb-2 lg:tw-mb-0">
+<div class="tw-text-center">
+<a href="/skills/testing" class="tw-block">
+<span class="tw-block tw--mb-1 tw-text-2xl lg:tw-text-lg tw-text-white lg:tw-text-grey-darkest">7</span>
+<span class="tw-text-transparent-50 lg:tw-text-grey-dark tw-text-sm lg:tw-text-2xs">series</span>
+</a>
+</div>
+<div class="tw-h-6 tw-bg-transparent-25 lg:tw-bg-grey-light" style="width: 1px"></div>
+<div class="tw-text-center">
+<span class="tw-block tw-text-2xl lg:tw-text-lg tw-text-white lg:tw-text-grey-darkest tw--mb-1">207</span>
+<span class="tw-text-transparent-50 lg:tw-text-grey-dark tw-text-sm lg:tw-text-2xs">videos</span>
+</div>
+</div>
+<div class="skill-card-meta-explore tw-pt-3 lg:tw-py-3 tw-text-center">
+<a href="/skills/testing" class="skill-card-explore-button tw-bg-transparent-10 lg:tw-w-1/2 lg:tw-mx-auto lg:tw-w-full tw-py-3 lg:tw-py-1 tw-px-2 tw-rounded-full tw-text-white tw-font-bold tw-flex tw-items-center tw-justify-center tw-text-xs lg:tw-text-sm tw-max-w-xs tw-mx-auto">
+<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" class="tw-hidden lg:tw-inline tw-mr-2">
+<g fill="none" fill-rule="evenodd">
+<path d="M-1-1h18v18H-1z"></path>
+<path class="tw-fill-current" d="M6 10.875L10.5 7.5 6 4.125v6.75zM7.5 0C3.36 0 0 3.36 0 7.5 0 11.64 3.36 15 7.5 15c4.14 0 7.5-3.36 7.5-7.5C15 3.36 11.64 0 7.5 0zm0 13.5c-3.307 0-6-2.693-6-6s2.693-6 6-6 6 2.693 6 6-2.693 6-6 6z"></path>
+</g>
+</svg>
+<span class="tw-uppercase lg:tw-normal-case">Explore <span class="lg:tw-hidden">Testing</span></span>
+</a>
+</div>
+</div>
+</div>
+<div class="skill-card is-javascript tw-relative tw-rounded-lg lg:tw-rounded-none tw-mb-6 lg:tw-mb-0 lg:tw-mx-2 lg:tw-mx-0 tw-flex lg:tw-flex-col">
+<div class="skill-card-top tw-text-center tw-py-3 tw-pl-8 tw-pr-6 lg:tw-px-8 tw-rounded-lg tw-relative">
+<a href="/skills/javascript" class="tw-block">
+<img class="skill-card-thumbnail" src="/images/series/2018/javascript-default.svg?v=4" alt="JavaScript Skill">
+</a>
+<h4 class="tw-text-lg tw-leading-tight tw-text-center tw-tracking-tight">
+<a href="/skills/javascript" class="tw-text-white hover:tw-text-white link" style="text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);">JavaScript</a>
+</h4>
+</div>
+<div class="skill-card-meta tw-flex-1 tw-flex tw-flex-col tw-justify-center lg:tw-flex-none tw-pr-5 lg:tw-px-6 tw-rounded-lg tw-rounded-t-none tw-border-grey tw-border-t-0">
+<div class="skill-card-meta-details tw-flex tw-items-center tw-justify-around tw-rounded tw-rounded-t-none lg:tw-py-3 tw-mb-2 lg:tw-mb-0">
+<div class="tw-text-center">
+<a href="/skills/javascript" class="tw-block">
+<span class="tw-block tw--mb-1 tw-text-2xl lg:tw-text-lg tw-text-white lg:tw-text-grey-darkest">5</span>
+<span class="tw-text-transparent-50 lg:tw-text-grey-dark tw-text-sm lg:tw-text-2xs">series</span>
+</a>
+</div>
+<div class="tw-h-6 tw-bg-transparent-25 lg:tw-bg-grey-light" style="width: 1px"></div>
+<div class="tw-text-center">
+<span class="tw-block tw-text-2xl lg:tw-text-lg tw-text-white lg:tw-text-grey-darkest tw--mb-1">288</span>
+<span class="tw-text-transparent-50 lg:tw-text-grey-dark tw-text-sm lg:tw-text-2xs">videos</span>
+</div>
+</div>
+<div class="skill-card-meta-explore tw-pt-3 lg:tw-py-3 tw-text-center">
+<a href="/skills/javascript" class="skill-card-explore-button tw-bg-transparent-10 lg:tw-w-1/2 lg:tw-mx-auto lg:tw-w-full tw-py-3 lg:tw-py-1 tw-px-2 tw-rounded-full tw-text-white tw-font-bold tw-flex tw-items-center tw-justify-center tw-text-xs lg:tw-text-sm tw-max-w-xs tw-mx-auto">
+<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" class="tw-hidden lg:tw-inline tw-mr-2">
+<g fill="none" fill-rule="evenodd">
+<path d="M-1-1h18v18H-1z"></path>
+<path class="tw-fill-current" d="M6 10.875L10.5 7.5 6 4.125v6.75zM7.5 0C3.36 0 0 3.36 0 7.5 0 11.64 3.36 15 7.5 15c4.14 0 7.5-3.36 7.5-7.5C15 3.36 11.64 0 7.5 0zm0 13.5c-3.307 0-6-2.693-6-6s2.693-6 6-6 6 2.693 6 6-2.693 6-6 6z"></path>
+</g>
+</svg>
+<span class="tw-uppercase lg:tw-normal-case">Explore <span class="lg:tw-hidden">JavaScript</span></span>
+</a>
+</div>
+</div>
+</div>
+<div class="skill-card is-tooling tw-relative tw-rounded-lg lg:tw-rounded-none tw-mb-6 lg:tw-mb-0 lg:tw-mx-2 lg:tw-mx-0 tw-flex lg:tw-flex-col">
+<div class="skill-card-top tw-text-center tw-py-3 tw-pl-8 tw-pr-6 lg:tw-px-8 tw-rounded-lg tw-relative">
+<a href="/skills/tooling" class="tw-block">
+<img class="skill-card-thumbnail" src="/images/series/2018/tooling-default.svg?v=4" alt="Tooling Skill">
+</a>
+<h4 class="tw-text-lg tw-leading-tight tw-text-center tw-tracking-tight">
+<a href="/skills/tooling" class="tw-text-white hover:tw-text-white link" style="text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);">Tooling</a>
+</h4>
+</div>
+<div class="skill-card-meta tw-flex-1 tw-flex tw-flex-col tw-justify-center lg:tw-flex-none tw-pr-5 lg:tw-px-6 tw-rounded-lg tw-rounded-t-none tw-border-grey tw-border-t-0">
+<div class="skill-card-meta-details tw-flex tw-items-center tw-justify-around tw-rounded tw-rounded-t-none lg:tw-py-3 tw-mb-2 lg:tw-mb-0">
+<div class="tw-text-center">
+<a href="/skills/tooling" class="tw-block">
+<span class="tw-block tw--mb-1 tw-text-2xl lg:tw-text-lg tw-text-white lg:tw-text-grey-darkest">12</span>
+<span class="tw-text-transparent-50 lg:tw-text-grey-dark tw-text-sm lg:tw-text-2xs">series</span>
+</a>
+</div>
+<div class="tw-h-6 tw-bg-transparent-25 lg:tw-bg-grey-light" style="width: 1px"></div>
+<div class="tw-text-center">
+<span class="tw-block tw-text-2xl lg:tw-text-lg tw-text-white lg:tw-text-grey-darkest tw--mb-1">393</span>
+<span class="tw-text-transparent-50 lg:tw-text-grey-dark tw-text-sm lg:tw-text-2xs">videos</span>
+</div>
+</div>
+<div class="skill-card-meta-explore tw-pt-3 lg:tw-py-3 tw-text-center">
+<a href="/skills/tooling" class="skill-card-explore-button tw-bg-transparent-10 lg:tw-w-1/2 lg:tw-mx-auto lg:tw-w-full tw-py-3 lg:tw-py-1 tw-px-2 tw-rounded-full tw-text-white tw-font-bold tw-flex tw-items-center tw-justify-center tw-text-xs lg:tw-text-sm tw-max-w-xs tw-mx-auto">
+<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" class="tw-hidden lg:tw-inline tw-mr-2">
+<g fill="none" fill-rule="evenodd">
+<path d="M-1-1h18v18H-1z"></path>
+<path class="tw-fill-current" d="M6 10.875L10.5 7.5 6 4.125v6.75zM7.5 0C3.36 0 0 3.36 0 7.5 0 11.64 3.36 15 7.5 15c4.14 0 7.5-3.36 7.5-7.5C15 3.36 11.64 0 7.5 0zm0 13.5c-3.307 0-6-2.693-6-6s2.693-6 6-6 6 2.693 6 6-2.693 6-6 6z"></path>
+</g>
+</svg>
+<span class="tw-uppercase lg:tw-normal-case">Explore <span class="lg:tw-hidden">Tooling</span></span>
+</a>
+</div>
+</div>
+</div>
+</div> 
+<div class="md:tw-flex md:tw-justify-center md:tw-mb-8 tw-pb-3 tw-text-center">
+<a href="/series?curated" class="tw-button tw-block mobile:tw-mx-auto is-default tw-px-8">Browse All Courses</a>
+</div>
+</div>
+</section>
+<section class="tw-hidden md:tw-block tw-px-0 md:tw-py-0">
+<div class="featured-series tw-overflow-hidden md:tw-mb-10">
+<div class="tw-flex tw-justify-center tw-mb-8 tw-text-center md:tw-w-2/3 xl:tw-w-1/2 md:tw-mx-auto">
+<div class="tw-py-0 container">
+<h3 class="centered-heading">What will you learn next?</h3>
+ <p class="tw-text-grey-dark md:tw-w-4/5 md:tw-mx-auto">
+There&#039;s no shortage of content at Laracasts. Check back most work-days for new lessons on your favorite web technologies and techniques.
+</p>
+</div>
+</div>
+<featured-series></featured-series>
+<div class="md:tw-flex md:tw-justify-center tw-text-center tw-mx-5">
+<a href="/series?curated" class="tw-button is-default mobile:tw-block mobile:tw-mx-auto tw-px-8">Explore More</a>
+</div>
+</div>
+</section>
+<section class="tw-hidden md:tw-block tw-p-0">
+<div>
+<testimonials></testimonials>
+</div>
+</section>
+<section class="plans-section md:tw-py-12">
+<div class="container">
+<plan-cards-container>
+</plan-cards-container>
+</div>
+</section>
+<section class="about-jeffrey md:is-medium">
+<div class="container">
+<div class="tw-flex">
+<div class="md:tw-px-10 lg:tw-w-2/3 mobile:tw-text-center">
+<h3 class="tw-text-3xl tw-mb-4 tw-tracking-normal tw-text-black">There's a chance you may already know me!</h3>
+<div class="content tw-leading-loose md:tw-pb-10 mobile:tw-px-6">
+<p>
+There's a chance you may already know <a class="link" href="https://twitter.com/jeffrey_way" target="_blank" rel="noreferrer">me</a>! A veteran in
+the PHP community, I was a co-host on the official <a class="link" href="http://laravelpodcast.com" target="_blank" rel="noreferrer noopener">Laravel podcast</a>, have
+written successful books, <a class="link" href="https://www.npmjs.com/package/laravel-mix" target="_blank" rel="noreferrer">built popular packages</a>,
+<a class="link" href="https://www.youtube.com/watch?v=mDotS5BDqRM" target="_blank" rel="noreferrer">spoken</a> at multiple
+Laracon conferences, been a guest on <a class="link" href="http://www.fullstackradio.com/28" target="_blank" rel="noreferrer noopener">countless podcasts</a>
+(including <a class="link" href="http://phptownhall.com/episode-19-jeffrey-laracasts-bdfls/" target="_blank" rel="noreferrer">PHP Town Hall</a>, <a class="link" href="http://shoptalkshow.com/episodes/005-with-jeffrey-way/" target="_blank" rel="noreferrer">Shop Talk</a>, <a class="link" href="https://www.youtube.com/watch?v=ozMoUp1wU0E" target="_blank" rel="noreferrer">No Capes</a>, and
+<a class="link" href="http://www.fullstackradio.com/28" target="_blank" rel="noreferrer">Full Stack Radio</a>), and have contributed to the largest
+development magazines in the world.
+</p>
+<p>
+And if I may be so bold, I'm very good at teaching this stuff.
+You won't find boring, sleep-inducing slides and diagrams (scored to the tune of "umms" and "uhhs") anywhere on
+this site. No thank you. Instead, I record the sorts of lessons that I wish had been available
+to me all those years ago: concise and respectful of your time.
+</p>
+<p>
+Buy me the equivalent of lunch once a month, and <a class="link" @click.prevent="$modal.show('join-modal')">I'll teach you</a>
+everything I know about this business.
+</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<div class="footer-wrap mobile:tw-text-lg">
+<section class="footer-section top md:tw-pb-0 tw-pt-0">
+<div class="container">
+<div class="md:tw-w-4/5 lg:tw-w-1/2 tw-mx-auto tw-text-center">
+<div>
+<h2 class="tw-text-white tw-text-3xl pr-1-tablet tw-mb-8 tw-tracking-tight">
+Want us to email you occasionally with Laracasts news?
+</h2>
+ </div>
+<div>
+<newsletter-form></newsletter-form>
+</div>
+</div>
+</div>
+</section>
+<section class="footer-section bottom tw-text-center md:tw-text-left tw-py-0">
+<footer class="container">
+<div class="md:tw-flex md:mb-3">
+<div class="md:tw-w-2/5 md:tw-mr-auto">
+<div class="tw-mb-3 tw-flex tw-justify-center md:tw-block">
+<svg class="tw-fill-current tw-text-white" width="232" height="44" viewBox="0 0 323 36" xmlns="http://www.w3.org/2000/svg">
+<g fill="none" fill-rule="evenodd">
+<path d="M0 4.83h6.986v24.521h15.137v5.699H0V4.83zm53.374 23.744H39.36l-2.674 6.476h-7.159L42.981 4.83h6.9L63.38 35.05h-7.33l-2.675-6.476zm-2.199-5.31l-4.787-11.57-4.787 11.57h9.574zM92.949 35.05l-5.822-8.418H80.7v8.418h-6.986V4.83h13.067c2.674 0 4.995.446 6.965 1.339 1.969.892 3.485 2.158 4.55 3.799 1.063 1.64 1.595 3.583 1.595 5.828s-.54 4.18-1.617 5.806c-1.078 1.626-2.61 2.871-4.593 3.734l6.77 9.714H92.95zm-.13-19.254c0-1.698-.546-3-1.638-3.907-1.093-.907-2.688-1.36-4.787-1.36H80.7v10.534h5.693c2.099 0 3.694-.461 4.787-1.382 1.092-.92 1.638-2.216 1.638-3.885zm39.661 12.778h-14.016l-2.673 6.476h-7.16l13.456-30.22h6.9l13.498 30.22h-7.331l-2.674-6.476zm-2.2-5.31l-4.786-11.57-4.787 11.57h9.574zm36.556 12.304c-3.076 0-5.858-.67-8.344-2.008-2.487-1.338-4.442-3.194-5.865-5.569-1.424-2.374-2.135-5.058-2.135-8.05 0-2.994.711-5.678 2.135-8.052 1.423-2.375 3.378-4.231 5.865-5.57 2.486-1.338 5.282-2.007 8.387-2.007 2.617 0 4.981.46 7.094 1.382 2.114.92 3.889 2.245 5.326 3.971l-4.485 4.145c-2.04-2.36-4.57-3.54-7.59-3.54-1.868 0-3.536.41-5.002 1.23a8.742 8.742 0 0 0-3.429 3.432c-.819 1.468-1.229 3.137-1.229 5.008 0 1.87.41 3.54 1.23 5.008a8.742 8.742 0 0 0 3.428 3.432c1.466.82 3.134 1.23 5.002 1.23 3.02 0 5.55-1.194 7.59-3.583l4.485 4.145c-1.437 1.755-3.22 3.093-5.347 4.014-2.128.921-4.5 1.382-7.116 1.382zm73.888 0c-2.387 0-4.694-.324-6.922-.971-2.228-.648-4.018-1.49-5.369-2.526l2.372-5.267c1.294.95 2.832 1.713 4.614 2.288 1.783.576 3.565.864 5.348.864 1.984 0 3.45-.295 4.399-.885.948-.59 1.423-1.375 1.423-2.353 0-.72-.28-1.317-.841-1.792-.56-.475-1.28-.856-2.156-1.144-.877-.288-2.063-.604-3.558-.95-2.3-.546-4.183-1.093-5.65-1.64a9.178 9.178 0 0 1-3.773-2.633c-1.05-1.21-1.574-2.82-1.574-4.836 0-1.755.474-3.345 1.423-4.77.949-1.425 2.38-2.554 4.29-3.389 1.913-.834 4.249-1.252 7.009-1.252 1.926 0 3.81.23 5.65.691 1.84.46 3.45 1.122 4.83 1.986l-2.157 5.31c-2.789-1.583-5.578-2.375-8.366-2.375-1.955 0-3.4.317-4.334.95-.935.633-1.402 1.468-1.402 2.504s.54 1.806 1.617 2.31c1.078.503 2.724 1 4.938 1.49 2.3.546 4.183 1.093 5.65 1.64a9.355 9.355 0 0 1 3.773 2.59c1.05 1.18 1.574 2.777 1.574 4.792a8.258 8.258 0 0 1-1.445 4.727c-.963 1.425-2.408 2.554-4.334 3.389-1.926.835-4.27 1.252-7.03 1.252zm30.604-25.04h-9.66V4.83h26.306v5.699h-9.66v24.52h-6.986V10.53zm37.289 25.04c-2.386 0-4.694-.324-6.922-.971-2.228-.648-4.017-1.49-5.369-2.526l2.372-5.267c1.294.95 2.832 1.713 4.615 2.288 1.782.576 3.564.864 5.347.864 1.984 0 3.45-.295 4.399-.885.949-.59 1.423-1.375 1.423-2.353 0-.72-.28-1.317-.841-1.792-.56-.475-1.28-.856-2.156-1.144-.877-.288-2.063-.604-3.558-.95-2.3-.546-4.183-1.093-5.65-1.64a9.178 9.178 0 0 1-3.773-2.633c-1.05-1.21-1.574-2.82-1.574-4.836 0-1.755.474-3.345 1.423-4.77.949-1.425 2.38-2.554 4.291-3.389 1.912-.834 4.248-1.252 7.008-1.252 1.926 0 3.81.23 5.65.691 1.84.46 3.45 1.122 4.83 1.986l-2.157 5.31c-2.789-1.583-5.577-2.375-8.366-2.375-1.955 0-3.4.317-4.334.95-.935.633-1.402 1.468-1.402 2.504s.54 1.806 1.617 2.31c1.078.503 2.724 1 4.938 1.49 2.3.546 4.183 1.093 5.65 1.64a9.355 9.355 0 0 1 3.773 2.59c1.05 1.18 1.574 2.777 1.574 4.792a8.258 8.258 0 0 1-1.445 4.727c-.963 1.425-2.407 2.554-4.334 3.389-1.926.835-4.27 1.252-7.03 1.252z" fill="#FFF" fill-rule="nonzero" />
+<g fill="#FFF">
+<path d="M192.912 8.921l4.923 4.924a2.597 2.597 0 0 1-3.673 3.673l-4.923-4.924a2.597 2.597 0 1 1 3.673-3.673zM203.437 19.447l10.547 10.547a2.597 2.597 0 0 1-3.673 3.673L199.764 23.12a2.597 2.597 0 1 1 3.673-3.673z" />
+<path d="M190.416 8.255L218.753.893A2.672 2.672 0 0 1 222 2.767a2.592 2.592 0 0 1-1.846 3.199l-28.338 7.362a2.672 2.672 0 0 1-3.247-1.875 2.592 2.592 0 0 1 1.847-3.198z" />
+<path d="M209.592 31.104l7.363-28.337A2.592 2.592 0 0 1 220.153.92a2.672 2.672 0 0 1 1.875 3.247l-7.362 28.337a2.592 2.592 0 0 1-3.199 1.847 2.672 2.672 0 0 1-1.875-3.247z" />
+</g>
+<path d="M208.62 18.067l-10.236 10.235a2.643 2.643 0 1 1-3.738-3.738l10.236-10.235a2.643 2.643 0 0 1 3.738 3.738zM193.38 33.306l-1.54 1.54a2.643 2.643 0 1 1-3.738-3.738l1.54-1.54a2.643 2.643 0 0 1 3.738 3.738z" fill="#53B5FF" />
+</g>
+</svg>
+</div>
+<p class="tw-mb-8 tw-text-white tw-leading-loose">
+Nine out of ten doctors recommend Laracasts over competing brands.
+Come inside, see for yourself, and massively level up your development skills in the process.
+</p>
+<div class="tw-flex tw-w-42 md:tw-w-28 tw-justify-between tw-items-center phone:tw-m-auto mobile:tw-mb-8">
+<a href="https://www.youtube.com/laracastsofficial" target="_blank" rel="noreferrer">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 19" class="tw-w-8 md:tw-w-6 tw-text-white hover:tw-text-black tw-transition-all">
+<g class="tw-fill-current" fill-rule="nonzero">
+<path d="M6.4 0H5.371l-.685 2.629L4 0H2.857c.229.686.457 1.257.686 1.943.343.914.571 1.714.571 2.171v2.743h1.029V4.114L6.4 0zm2.743 5.143V3.429c0-.572-.114-.915-.343-1.258-.229-.342-.571-.457-1.029-.457-.457 0-.8.229-1.028.572-.229.228-.343.571-.343 1.143v1.828c0 .572.114.914.343 1.143.228.343.571.457 1.028.457.458 0 .8-.228 1.029-.571.229-.115.343-.572.343-1.143zm-.914.228c0 .458-.115.686-.458.686-.342 0-.457-.228-.457-.686V3.2c0-.457.115-.686.457-.686.343 0 .458.229.458.686v2.171zm4.342 1.486V1.714h-.914V5.6c-.228.343-.343.457-.571.457a.246.246 0 0 1-.229-.228V1.714h-.914v4c0 .343 0 .572.114.8 0 .229.229.343.572.343.342 0 .685-.228 1.028-.571v.571h.914zM13.029 12c-.343 0-.458.229-.458.686v.457h.915v-.457c0-.457-.115-.686-.457-.686zM9.714 12c-.114 0-.343.114-.457.229v3.085c.114.115.343.229.457.229.229 0 .343-.229.343-.686v-2.171c0-.457-.114-.686-.343-.686z" />
+<path d="M15.314 9.486C15.086 8.686 14.4 8 13.714 8 11.886 7.771 9.943 7.771 8 7.771c-1.943 0-3.771 0-5.714.229-.686 0-1.372.686-1.6 1.486-.229 1.143-.229 2.4-.229 3.543 0 1.142 0 2.4.229 3.542.228.8.8 1.372 1.6 1.486 1.943.229 3.771.229 5.714.229 1.943 0 3.771 0 5.714-.229.8-.114 1.486-.686 1.6-1.486.229-1.142.229-2.4.229-3.542 0-1.143 0-2.4-.229-3.543zM4.8 10.514H3.657v5.829H2.63v-5.829H1.6V9.486h3.2v1.028zm2.743 5.829h-.914v-.572c-.343.458-.686.572-1.029.572-.343 0-.457-.114-.571-.343 0-.114-.115-.343-.115-.8v-4h.915v4c0 .114.114.229.228.229.229 0 .343-.115.572-.458V11.2h.914v5.143zm3.428-1.6c0 .457 0 .8-.114 1.028-.114.343-.343.572-.686.572-.342 0-.685-.229-.914-.572v.458h-.914V9.486h.914v2.171c.343-.343.572-.571.914-.571.343 0 .572.228.686.571.114.229.114.572.114 1.029v2.057zm3.429-.8h-1.829v.914c0 .457.115.686.458.686.228 0 .342-.114.457-.343v-.571h.914V15.314c0 .229-.114.343-.229.572-.228.343-.571.571-1.142.571-.458 0-.8-.228-1.143-.571-.229-.229-.343-.686-.343-1.143v-1.714c0-.572.114-.915.228-1.143.229-.343.572-.572 1.143-.572.457 0 .8.229 1.029.572.228.228.228.685.228 1.143v.914h.229z" />
+</g>
+</svg>
+</a>
+<a href="https://twitter.com/laracasts" target="_blank" rel="noreferrer">
+<svg xmlns="http://www.w3.org/2000/svg" class="tw-w-8 md:tw-w-6 tw-text-white hover:tw-text-black tw-transition-all" viewBox="0 0 18 18">
+<path class="tw-fill-current" fill-rule="nonzero" d="M9 0C4.037 0 0 4.037 0 9c0 4.962 4.037 9 9 9 4.962 0 9-4.038 9-9 0-4.963-4.037-9-9-9zm4.015 6.94c.004.09.006.18.006.27 0 2.737-2.083 5.892-5.894 5.892a5.86 5.86 0 0 1-3.175-.93 4.158 4.158 0 0 0 3.067-.858 2.074 2.074 0 0 1-1.936-1.439 2.088 2.088 0 0 0 .936-.034 2.072 2.072 0 0 1-1.662-2.032v-.026c.28.155.6.249.938.26a2.07 2.07 0 0 1-.64-2.766 5.882 5.882 0 0 0 4.269 2.165 2.071 2.071 0 0 1 3.53-1.89 4.135 4.135 0 0 0 1.316-.503 2.08 2.08 0 0 1-.912 1.146c.419-.05.82-.16 1.19-.326-.277.415-.628.78-1.033 1.071z">
+</svg>
+</a>
+<a href="https://github.com/laracasts" target="_blank" rel="noreferrer">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 29" class="tw-w-8 md:tw-w-6 tw-text-white hover:tw-text-black tw-transition-all">
+<path class="tw-fill-current" fill-rule="nonzero" d="M27.959 7.434a14.866 14.866 0 0 0-5.453-5.414C20.21.69 17.703.025 14.984.025c-2.718 0-5.226.665-7.521 1.995A14.864 14.864 0 0 0 2.01 7.434C.67 9.714 0 12.202 0 14.901c0 3.242.953 6.156 2.858 8.746 1.906 2.589 4.367 4.38 7.385 5.375.351.064.611.019.78-.136a.755.755 0 0 0 .254-.58l-.01-1.047c-.007-.658-.01-1.233-.01-1.723l-.448.077a5.765 5.765 0 0 1-1.083.068 8.308 8.308 0 0 1-1.356-.136 3.04 3.04 0 0 1-1.308-.58c-.403-.304-.689-.701-.858-1.192l-.195-.445a4.834 4.834 0 0 0-.614-.988c-.28-.362-.563-.607-.85-.736l-.136-.097a1.428 1.428 0 0 1-.253-.233 1.062 1.062 0 0 1-.176-.271c-.039-.09-.007-.165.098-.223.104-.059.292-.087.566-.087l.39.058c.26.052.582.206.965.465.384.258.7.594.947 1.007.299.53.66.933 1.082 1.21.423.278.85.417 1.278.417.43 0 .8-.032 1.112-.097a3.9 3.9 0 0 0 .878-.29c.117-.866.436-1.53.956-1.996a13.447 13.447 0 0 1-2-.348 7.995 7.995 0 0 1-1.833-.756 5.244 5.244 0 0 1-1.571-1.298c-.416-.516-.758-1.195-1.024-2.034-.267-.84-.4-1.808-.4-2.905 0-1.563.514-2.893 1.541-3.99-.481-1.176-.436-2.493.137-3.952.377-.116.936-.03 1.678.261.741.291 1.284.54 1.629.746.345.207.621.381.83.523a13.948 13.948 0 0 1 3.745-.503c1.288 0 2.537.168 3.747.503l.741-.464c.507-.31 1.106-.595 1.795-.853.69-.258 1.216-.33 1.58-.213.586 1.46.638 2.777.156 3.951 1.028 1.098 1.542 2.428 1.542 3.99 0 1.099-.134 2.07-.4 2.916-.267.846-.611 1.524-1.034 2.034-.423.51-.95.94-1.58 1.288a8.01 8.01 0 0 1-1.834.756c-.592.155-1.259.271-2 .349.676.58 1.014 1.498 1.014 2.75v4.087c0 .232.081.426.244.58.163.155.42.2.77.136 3.019-.994 5.48-2.786 7.386-5.375 1.905-2.59 2.858-5.504 2.858-8.746 0-2.698-.671-5.187-2.01-7.466z"></path>
+</svg>
+</a>
+</div>
+</div>
+<div class="md:tw-w-1/6 mobile:tw-mb-6">
+<h5 class="tw-text-white tw-font-bold md:tw-font-semibold tw-mb-2 md:tw-mb-6 tw-uppercase">Learn</h5>
+<ul class="tw-leading-loose">
+<li><a class="tw-text-transparent-50 hover:tw-text-white" href="/search?refinement=type&name=series">Browse</a></li>
+<li><a class="tw-text-transparent-50 hover:tw-text-white" href="/index">Lesson Index</a></li>
+<li><a class="tw-text-transparent-50 hover:tw-text-white" @click.prevent="$modal.show('promo-modal')">Commercial</a></li>
+</ul>
+</div>
+<div class="md:tw-w-1/6 mobile:tw-mb-6">
+<h5 class="tw-text-white tw-font-bold md:tw-font-semibold tw-mb-2 md:tw-mb-6 tw-uppercase">Discuss</h5>
+<ul class="tw-leading-loose">
+<li><a class="tw-text-transparent-50 hover:tw-text-white" href="/discuss">Forum</a></li>
+<li><a class="tw-text-transparent-50 hover:tw-text-white" href="/podcast">Podcast</a></li>
+<li><support-button></support-button></li>
+</ul>
+</div>
+<div class="md:tw-w-1/6 mobile:tw-mb-8">
+<h5 class="tw-text-white tw-font-bold md:tw-font-semibold tw-mb-2 md:tw-mb-6 tw-uppercase">Extras</h5>
+<ul class="tw-leading-loose">
+<li>
+<a class="tw-text-transparent-50 hover:tw-text-white" @click.prevent="$modal.show('testimonials-modal')">Testimonials</a>
+</li>
+<li><a class="tw-text-transparent-50 hover:tw-text-white" href="/faq">FAQ</a></li>
+<li><a class="tw-text-transparent-50 hover:tw-text-white" href="https://assets.laracasts.com">Assets</a></li>
+<li><a class="tw-text-transparent-50 hover:tw-text-white" href="https://larajobs.com/?partner=36#" target="_blank" rel="noreferrer">Get a Job</a></li>
+</ul>
+<ul class="zeroed tw-leading-loose">
+<li><a class="tw-text-transparent-50 hover:tw-text-white" href="/privacy">Privacy</a></li>
+<li><a class="tw-text-transparent-50 hover:tw-text-white" href="/terms">Terms</a></li>
+</ul>
+</div>
+</div>
+<div class="tw-border-t tw-border-solid tw-border-transparent-10 tw-py-4 md:tw-mt-8 mobile:tw-text-lg">
+<div class="tw-text-transparent-50 tw-text-base md:tw-text-xs tw-text-center">
+<p class="tw-mb-5 md:tw-mb-2 tw-tracking-normal">
+&copy; Laracasts 2019. All rights reserved. <br class="md:tw-hidden" />Yes, all of them. That means you, Todd.
+</p>
+<p class="tw-tracking-normal">
+<span class="mobile:tw-block">Designed with <img src="/images/icons/heart.svg" alt="heart" class="tw-px-1 tw-relative heart-pulse tw-inline" style="top: 2px" loading="lazy"> by <a href="https://twitter.com/tudssss" class="tw-font-bold inherits-color link hover:tw-text-white">Tuds</a>.</span>
+<br class="md:tw-hidden">Proudly hosted with <a href="https://forge.laravel.com" class="tw-font-bold inherits-color link hover:tw-text-white">Laravel Forge</a>
+and <a href="https://www.digitalocean.com/?refcode=d2070a2d5f35" class="tw-font-bold link inherits-color link hover:tw-text-white">DigitalOcean</a>.
+</p>
+</div>
+</div>
+</footer>
+</section>
+</div>
+</div>
+<achievements></achievements>
+<login-modal token="5JGu7MF9kgzfBTUcvP6ejfyh2QnsrvUtAjK9OClX"></login-modal>
+<join initial-category="personalPlans"></join>
+<testimonials-modal></testimonials-modal>
+<search-modal></search-modal>
+<promo-modal></promo-modal>
+</div> 
+<script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearch.min.js" type="70eee5003d8ad428a7d09c2a-text/javascript"></script>
+<script src="https://cdn.jsdelivr.net/autocomplete.js/0/autocomplete.min.js" type="70eee5003d8ad428a7d09c2a-text/javascript"></script>
+
+<script type="70eee5003d8ad428a7d09c2a-text/javascript">
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+
+    ga('create','UA-44120322-1');
+</script>
+<script src="/js/manifest.js?id=227795a4cf81cedbd601" type="70eee5003d8ad428a7d09c2a-text/javascript"></script>
+<script src="/js/vendor.js?id=65f9c83098145e784c22" type="70eee5003d8ad428a7d09c2a-text/javascript"></script>
+<script src="/js/app.js?id=8898dfa8759b899a92b7" type="70eee5003d8ad428a7d09c2a-text/javascript"></script>
+<script type="70eee5003d8ad428a7d09c2a-text/javascript">
+    ga('send', 'pageview');
+</script>
+<script type="70eee5003d8ad428a7d09c2a-text/javascript">
+            
+        swal({
+            title: "",
+            text: "The payload is invalid.",
+            timer: 1700,
+            buttons: true
+        });
+
+    
+    
+    
+    </script>
+<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/95c75768/cloudflare-static/rocket-loader.min.js" data-cf-settings="70eee5003d8ad428a7d09c2a-|49" defer=""></script></body>
+</html>
+$finalUrlfinalUrl -> https://laracasts.com/downloads/eyJpdiI6Im5hamJ0dHpKamF3a1BQb3VkaXdRWlE9PSIsInZhbHVlIjoiYWc5TGRKeXF1eW1pbWNDVEkxaVJDZz09IiwibWFjIjoiOGZkMzg1MzIyYzQ2MzM1MDFjNTkwMzRhNmU5NTEwZDU1ZDBiZDFkYmQxMzRkOTljMzc2NjFjZmExODU2YmEwZSJ9" :completed="false" :is-subscribed-to="false" :is-favorited="false> Total: 0% Downloaded: 0 B of 0 B     > Total: 0% Downloaded: 0 B of 0 B     > Total: 0% Downloaded: 0 B of 0 B     > Total: 0% Downloaded: 0 B of 0 B     > Total: 0% Downloaded: 0 B of 0 B     > Total: 0% Downloaded: 0 B of 0 B     > Total: 0% Downloaded: 0 B of 0 B     > Total: 0% Downloaded: 0 B of 0 B     > Total: 0% Downloaded: 0 B of 0 B     > Total: 0% Downloaded: 0 B of 0 B     > Total: 0% Downloaded: 307 B of 0 B     > Total: 0% Downloaded: 307 B of 0 B     > Total: 0% Downloaded: 307 B of 0 B     > Total: 0% Downloaded: 307 B of 0 B     > Total: 0% Downloaded: 307 B of 0 B     > Total: 0% Downloaded: 307 B of 0 B     exceptionInvalidArgumentException: save_to must be a GuzzleHttp\Stream\StreamInterface or resource in /home/vagrant/code/laracasts-downloader/vendor/guzzlehttp/ringphp/src/Client/CurlFactory.php:416
+Stack trace:
+#0 /home/vagrant/code/laracasts-downloader/vendor/guzzlehttp/ringphp/src/Client/CurlFactory.php(33): GuzzleHttp\Ring\Client\CurlFactory->applyHandlerOptions(Array, Array)
+#1 /home/vagrant/code/laracasts-downloader/vendor/guzzlehttp/ringphp/src/Client/CurlHandler.php(84): GuzzleHttp\Ring\Client\CurlFactory->__invoke(Array, Resource id #87)
+#2 /home/vagrant/code/laracasts-downloader/vendor/guzzlehttp/ringphp/src/Client/CurlHandler.php(68): GuzzleHttp\Ring\Client\CurlHandler->_invokeAsArray(Array)
+#3 /home/vagrant/code/laracasts-downloader/vendor/guzzlehttp/ringphp/src/Client/Middleware.php(54): GuzzleHttp\Ring\Client\CurlHandler->__invoke(Array)
+#4 /home/vagrant/code/laracasts-downloader/vendor/guzzlehttp/ringphp/src/Client/Middleware.php(30): GuzzleHttp\Ring\Client\Middleware::GuzzleHttp\Ring\Client\{closure}(Array)
+#5 /home/vagrant/code/laracasts-downloader/vendor/guzzlehttp/guzzle/src/RequestFsm.php(129): GuzzleHttp\Ring\Client\Middleware::GuzzleHttp\Ring\Client\{closure}(Array)
+#6 /home/vagrant/code/laracasts-downloader/vendor/guzzlehttp/guzzle/src/RequestFsm.php(132): GuzzleHttp\RequestFsm->__invoke(Object(GuzzleHttp\Transaction))
+#7 /home/vagrant/code/laracasts-downloader/vendor/react/promise/src/FulfilledPromise.php(25): GuzzleHttp\RequestFsm->GuzzleHttp\{closure}(Array)
+#8 /home/vagrant/code/laracasts-downloader/vendor/guzzlehttp/ringphp/src/Future/CompletedFutureValue.php(55): React\Promise\FulfilledPromise->then(Object(Closure), NULL, NULL)
+#9 /home/vagrant/code/laracasts-downloader/vendor/guzzlehttp/guzzle/src/Message/FutureResponse.php(43): GuzzleHttp\Ring\Future\CompletedFutureValue->then(Object(Closure), NULL, NULL)
+#10 /home/vagrant/code/laracasts-downloader/vendor/guzzlehttp/guzzle/src/RequestFsm.php(134): GuzzleHttp\Message\FutureResponse::proxy(Object(GuzzleHttp\Ring\Future\CompletedFutureArray), Object(Closure))
+#11 /home/vagrant/code/laracasts-downloader/vendor/guzzlehttp/guzzle/src/Client.php(165): GuzzleHttp\RequestFsm->__invoke(Object(GuzzleHttp\Transaction))
+#12 /home/vagrant/code/laracasts-downloader/App/Http/Resolver.php(258): GuzzleHttp\Client->send(Object(GuzzleHttp\Message\Request))
+#13 /home/vagrant/code/laracasts-downloader/App/Http/Resolver.php(148): App\Http\Resolver->downloadLessonFromPath('<!DOCTYPE html>...', 'Downloads/lesso...')
+#14 /home/vagrant/code/laracasts-downloader/App/Downloader.php(186): App\Http\Resolver->downloadLesson('the-repository-...')
+#15 /home/vagrant/code/laracasts-downloader/App/Downloader.php(139): App\Downloader->downloadLessons(Array, Array, 204)
+#16 /home/vagrant/code/laracasts-downloader/start.php(24): App\Downloader->start(Array)
+#17 {main}
+
+Next GuzzleHttp\Exception\RequestException: save_to must be a GuzzleHttp\Stream\StreamInterface or resource in /home/vagrant/code/laracasts-downloader/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:51
+Stack trace:
+#0 /home/vagrant/code/laracasts-downloader/vendor/guzzlehttp/guzzle/src/Client.php(184): GuzzleHttp\Exception\RequestException::wrapException(Object(GuzzleHttp\Message\Request), Object(InvalidArgumentException))
+#1 /home/vagrant/code/laracasts-downloader/App/Http/Resolver.php(258): GuzzleHttp\Client->send(Object(GuzzleHttp\Message\Request))
+#2 /home/vagrant/code/laracasts-downloader/App/Http/Resolver.php(148): App\Http\Resolver->downloadLessonFromPath('<!DOCTYPE html>...', 'Downloads/lesso...')
+#3 /home/vagrant/code/laracasts-downloader/App/Downloader.php(186): App\Http\Resolver->downloadLesson('the-repository-...')
+#4 /home/vagrant/code/laracasts-downloader/App/Downloader.php(139): App\Downloader->downloadLessons(Array, Array, 204)
+#5 /home/vagrant/code/laracasts-downloader/start.php(24): App\Downloader->start(Array)
+#6 {main}
+> Retry download after connection fail!     
+finalUrl -> https://laracasts.com/downloads/eyJpdiI6Im5hamJ0dHpKamF3a1BQb3VkaXdRWlE9PSIsInZhbHVlIjoiYWc5TGRKeXF1eW1pbWNDVEkxaVJDZz09IiwibWFjIjoiOGZkMzg1MzIyYzQ2MzM1MDFjNTkwMzRhNmU5NTEwZDU1ZDBiZDFkYmQxMzRkOTljMzc2NjFjZmExODU2YmEwZSJ9" :completed="false" :is-subscribed-to="false" :is-favorited="false> Total: 0% Downloaded: 307 B of 0 B     > Total: 0% Downloaded: 307 B of 0 B     > Total: 0% Downloaded: 307 B of 0 B     > Total: 0% Downloaded: 307 B of 0 B     > Total: 0% Downloaded: 307 B of 0 B     > Total: 0% Downloaded: 307 B of 0 B     > Total: 0% Downloaded: 307 B of 0 B     > Total: 0% Downloaded: 307 B of 0 B     > Total: 0% Downloaded: 307 B of 0 B     > Total: 0% Downloaded: 307 B of 0 B     > Total: 0% Downloaded: 307 B of 0 B     > Total: 0% Downloaded: 307 B of 0 B     > Total: 0% Downloaded: 307 B of 0 B     > Total: 0% Downloaded: 374 B of 0 B     > Total: 0% Downloaded: 374 B of 0 B     > Total: 0% Downloaded: 614 B of 0 B     > Total: 0% Downloaded: 614 B of 0 B     > Total: 0% Downloaded: 614 B of 0 B     > Total: 0% Downloaded: 614 B of 0 B     > Total: 0% Downloaded: 614 B of 0 B     > Total: 0% Downloaded: 614 B of 0 B     exceptionInvalidArgumentException: save_to must be a GuzzleHttp\Stream\StreamInterface or resource in /home/vagrant/code/laracasts-downloader/vendor/guzzlehttp/ringphp/src/Client/CurlFactory.php:416
+Stack trace:
+#0 /home/vagrant/code/laracasts-downloader/vendor/guzzlehttp/ringphp/src/Client/CurlFactory.php(33): GuzzleHttp\Ring\Client\CurlFactory->applyHandlerOptions(Array, Array)
+#1 /home/vagrant/code/laracasts-downloader/vendor/guzzlehttp/ringphp/src/Client/CurlHandler.php(84): GuzzleHttp\Ring\Client\CurlFactory->__invoke(Array, Resource id #185)
+#2 /home/vagrant/code/laracasts-downloader/vendor/guzzlehttp/ringphp/src/Client/CurlHandler.php(68): GuzzleHttp\Ring\Client\CurlHandler->_invokeAsArray(Array)
+#3 /home/vagrant/code/laracasts-downloader/vendor/guzzlehttp/ringphp/src/Client/Middleware.php(54): GuzzleHttp\Ring\Client\CurlHandler->__invoke(Array)
+#4 /home/vagrant/code/laracasts-downloader/vendor/guzzlehttp/ringphp/src/Client/Middleware.php(30): GuzzleHttp\Ring\Client\Middleware::GuzzleHttp\Ring\Client\{closure}(Array)
+#5 /home/vagrant/code/laracasts-downloader/vendor/guzzlehttp/guzzle/src/RequestFsm.php(129): GuzzleHttp\Ring\Client\Middleware::GuzzleHttp\Ring\Client\{closure}(Array)
+#6 /home/vagrant/code/laracasts-downloader/vendor/guzzlehttp/guzzle/src/RequestFsm.php(132): GuzzleHttp\RequestFsm->__invoke(Object(GuzzleHttp\Transaction))
+#7 /home/vagrant/code/laracasts-downloader/vendor/react/promise/src/FulfilledPromise.php(25): GuzzleHttp\RequestFsm->GuzzleHttp\{closure}(Array)
+#8 /home/vagrant/code/laracasts-downloader/vendor/guzzlehttp/ringphp/src/Future/CompletedFutureValue.php(55): React\Promise\FulfilledPromise->then(Object(Closure), NULL, NULL)
+#9 /home/vagrant/code/laracasts-downloader/vendor/guzzlehttp/guzzle/src/Message/FutureResponse.php(43): GuzzleHttp\Ring\Future\CompletedFutureValue->then(Object(Closure), NULL, NULL)
+#10 /home/vagrant/code/laracasts-downloader/vendor/guzzlehttp/guzzle/src/RequestFsm.php(134): GuzzleHttp\Message\FutureResponse::proxy(Object(GuzzleHttp\Ring\Future\CompletedFutureArray), Object(Closure))
+#11 /home/vagrant/code/laracasts-downloader/vendor/guzzlehttp/guzzle/src/Client.php(165): GuzzleHttp\RequestFsm->__invoke(Object(GuzzleHttp\Transaction))
+#12 /home/vagrant/code/laracasts-downloader/App/Http/Resolver.php(258): GuzzleHttp\Client->send(Object(GuzzleHttp\Message\Request))
+#13 /home/vagrant/code/laracasts-downloader/App/Http/Resolver.php(148): App\Http\Resolver->downloadLessonFromPath('<!DOCTYPE html>...', 'Downloads/lesso...')
+#14 /home/vagrant/code/laracasts-downloader/App/Downloader.php(186): App\Http\Resolver->downloadLesson('the-repository-...')
+#15 /home/vagrant/code/laracasts-downloader/App/Downloader.php(139): App\Downloader->downloadLessons(Array, Array, 204)
+#16 /home/vagrant/code/laracasts-downloader/start.php(24): App\Downloader->start(Array)
+#17 {main}
+
+Next GuzzleHttp\Exception\RequestException: save_to must be a GuzzleHttp\Stream\StreamInterface or resource in /home/vagrant/code/laracasts-downloader/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:51
+Stack trace:
+#0 /home/vagrant/code/laracasts-downloader/vendor/guzzlehttp/guzzle/src/Client.php(184): GuzzleHttp\Exception\RequestException::wrapException(Object(GuzzleHttp\Message\Request), Object(InvalidArgumentException))
+#1 /home/vagrant/code/laracasts-downloader/App/Http/Resolver.php(258): GuzzleHttp\Client->send(Object(GuzzleHttp\Message\Request))
+#2 /home/vagrant/code/laracasts-downloader/App/Http/Resolver.php(148): App\Http\Resolver->downloadLessonFromPath('<!DOCTYPE html>...', 'Downloads/lesso...')
+#3 /home/vagrant/code/laracasts-downloader/App/Downloader.php(186): App\Http\Resolver->downloadLesson('the-repository-...')
+#4 /home/vagrant/code/laracasts-downloader/App/Downloader.php(139): App\Downloader->downloadLessons(Array, Array, 204)
+#5 /home/vagrant/code/laracasts-downloader/start.php(24): App\Downloader->start(Array)
+#6 {main}
+> Retry download after connection fail!     
+finalUrl -> https://laracasts.com/downloads/eyJpdiI6Im5hamJ0dHpKamF3a1BQb3VkaXdRWlE9PSIsInZhbHVlIjoiYWc5TGRKeXF1eW1pbWNDVEkxaVJDZz09IiwibWFjIjoiOGZkMzg1MzIyYzQ2MzM1MDFjNTkwMzRhNmU5NTEwZDU1ZDBiZDFkYmQxMzRkOTljMzc2NjFjZmExODU2YmEwZSJ9" :completed="false" :is-subscribed-to="false" :is-favorited="false> Total: 0% Downloaded: 307 B of 0 B     > Total: 0% Downloaded: 307 B of 0 B     > Total: 0% Downloaded: 307 B of 0 B     > Total: 0% Downloaded: 307 B of 0 B     > Total: 0% Downloaded: 307 B of 0 B     > Total: 0% Downloaded: 307 B of 0 B     > Total: 0% Downloaded: 307 B of 0 B     > Total: 0% Downloaded: 307 B of 0 B     > Total: 0% Downloaded: 307 B of 0 B     > Total: 0% Downloaded: 307 B of 0 B     > Total: 0% Downloaded: 307 B of 0 B     > Total: 0% Downloaded: 307 B of 0 B     > Total: 0% Downloaded: 370 B of 0 B     > Total: 0% Downloaded: 370 B of 0 B     > Total: 0% Downloaded: 614 B of 0 B     > Total: 0% Downloaded: 614 B of 0 B     > Total: 0% Downloaded: 614 B of 0 B     > Total: 0% Downloaded: 614 B of 0 B     > Total: 0% Downloaded: 614 B of 0 B     > Total: 0% Downloaded: 614 B of 0 B     exceptionInvalidArgumentException: save_to must be a GuzzleHttp\Stream\StreamInterface or resource in /home/vagrant/code/laracasts-downloader/vendor/guzzlehttp/ringphp/src/Client/CurlFactory.php:416
+Stack trace:
+#0 /home/vagrant/code/laracasts-downloader/vendor/guzzlehttp/ringphp/src/Client/CurlFactory.php(33): GuzzleHttp\Ring\Client\CurlFactory->applyHandlerOptions(Array, Array)
+#1 /home/vagrant/code/laracasts-downloader/vendor/guzzlehttp/ringphp/src/Client/CurlHandler.php(84): GuzzleHttp\Ring\Client\CurlFactory->__invoke(Array, Resource id #187)
+#2 /home/vagrant/code/laracasts-downloader/vendor/guzzlehttp/ringphp/src/Client/CurlHandler.php(68): GuzzleHttp\Ring\Client\CurlHandler->_invokeAsArray(Array)
+#3 /home/vagrant/code/laracasts-downloader/vendor/guzzlehttp/ringphp/src/Client/Middleware.php(54): GuzzleHttp\Ring\Client\CurlHandler->__invoke(Array)
+#4 /home/vagrant/code/laracasts-downloader/vendor/guzzlehttp/ringphp/src/Client/Middleware.php(30): GuzzleHttp\Ring\Client\Middleware::GuzzleHttp\Ring\Client\{closure}(Array)
+#5 /home/vagrant/code/laracasts-downloader/vendor/guzzlehttp/guzzle/src/RequestFsm.php(129): GuzzleHttp\Ring\Client\Middleware::GuzzleHttp\Ring\Client\{closure}(Array)
+#6 /home/vagrant/code/laracasts-downloader/vendor/guzzlehttp/guzzle/src/RequestFsm.php(132): GuzzleHttp\RequestFsm->__invoke(Object(GuzzleHttp\Transaction))
+#7 /home/vagrant/code/laracasts-downloader/vendor/react/promise/src/FulfilledPromise.php(25): GuzzleHttp\RequestFsm->GuzzleHttp\{closure}(Array)
+#8 /home/vagrant/code/laracasts-downloader/vendor/guzzlehttp/ringphp/src/Future/CompletedFutureValue.php(55): React\Promise\FulfilledPromise->then(Object(Closure), NULL, NULL)
+#9 /home/vagrant/code/laracasts-downloader/vendor/guzzlehttp/guzzle/src/Message/FutureResponse.php(43): GuzzleHttp\Ring\Future\CompletedFutureValue->then(Object(Closure), NULL, NULL)
+#10 /home/vagrant/code/laracasts-downloader/vendor/guzzlehttp/guzzle/src/RequestFsm.php(134): GuzzleHttp\Message\FutureResponse::proxy(Object(GuzzleHttp\Ring\Future\CompletedFutureArray), Object(Closure))
+#11 /home/vagrant/code/laracasts-downloader/vendor/guzzlehttp/guzzle/src/Client.php(165): GuzzleHttp\RequestFsm->__invoke(Object(GuzzleHttp\Transaction))
+#12 /home/vagrant/code/laracasts-downloader/App/Http/Resolver.php(258): GuzzleHttp\Client->send(Object(GuzzleHttp\Message\Request))
+#13 /home/vagrant/code/laracasts-downloader/App/Http/Resolver.php(148): App\Http\Resolver->downloadLessonFromPath('<!DOCTYPE html>...', 'Downloads/lesso...')
+#14 /home/vagrant/code/laracasts-downloader/App/Downloader.php(186): App\Http\Resolver->downloadLesson('the-repository-...')
+#15 /home/vagrant/code/laracasts-downloader/App/Downloader.php(139): App\Downloader->downloadLessons(Array, Array, 204)
+#16 /home/vagrant/code/laracasts-downloader/start.php(24): App\Downloader->start(Array)
+#17 {main}
+
+Next GuzzleHttp\Exception\RequestException: save_to must be a GuzzleHttp\Stream\StreamInterface or resource in /home/vagrant/code/laracasts-downloader/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:51
+Stack trace:
+#0 /home/vagrant/code/laracasts-downloader/vendor/guzzlehttp/guzzle/src/Client.php(184): GuzzleHttp\Exception\RequestException::wrapException(Object(GuzzleHttp\Message\Request), Object(InvalidArgumentException))
+#1 /home/vagrant/code/laracasts-downloader/App/Http/Resolver.php(258): GuzzleHttp\Client->send(Object(GuzzleHttp\Message\Request))
+#2 /home/vagrant/code/laracasts-downloader/App/Http/Resolver.php(148): App\Http\Resolver->downloadLessonFromPath('<!DOCTYPE html>...', 'Downloads/lesso...')
+#3 /home/vagrant/code/laracasts-downloader/App/Downloader.php(186): App\Http\Resolver->downloadLesson('the-repository-...')
+#4 /home/vagrant/code/laracasts-downloader/App/Downloader.php(139): App\Downloader->downloadLessons(Array, Array, 204)
+#5 /home/vagrant/code/laracasts-downloader/start.php(24): App\Downloader->start(Array)
+#6 {main}
+> Retry download after connection fail!     
+finalUrl -> https://laracasts.com/downloads/eyJpdiI6Im5hamJ0dHpKamF3a1BQb3VkaXdRWlE9PSIsInZhbHVlIjoiYWc5TGRKeXF1eW1pbWNDVEkxaVJDZz09IiwibWFjIjoiOGZkMzg1MzIyYzQ2MzM1MDFjNTkwMzRhNmU5NTEwZDU1ZDBiZDFkYmQxMzRkOTljMzc2NjFjZmExODU2YmEwZSJ9" :completed="false" :is-subscribed-to="false" :is-favorited="false> Total: 0% Downloaded: 307 B of 0 B     > Total: 0% Downloaded: 307 B of 0 B     > Total: 0% Downloaded: 307 B of 0 B     > Total: 0% Downloaded: 307 B of 0 B     > Total: 0% Downloaded: 307 B of 0 B     > Total: 0% Downloaded: 307 B of 0 B     > Total: 0% Downloaded: 307 B of 0 B     > Total: 0% Downloaded: 307 B of 0 B     > Total: 0% Downloaded: 307 B of 0 B     > Total: 0% Downloaded: 307 B of 0 B     > Total: 0% Downloaded: 307 B of 0 B     > Total: 0% Downloaded: 307 B of 0 B     > Total: 0% Downloaded: 307 B of 0 B     > Total: 0% Downloaded: 307 B of 0 B     > Total: 0% Downloaded: 307 B of 0 B     > Total: 0% Downloaded: 372 B of 0 B     > Total: 0% Downloaded: 372 B of 0 B     > Total: 0% Downloaded: 614 B of 0 B     > Total: 0% Downloaded: 614 B of 0 B     > Total: 0% Downloaded: 614 B of 0 B     > Total: 0% Downloaded: 614 B of 0 B     > Total: 0% Downloaded: 614 B of 0 B     > Total: 0% Downloaded: 614 B of 0 B     exceptionInvalidArgumentException: save_to must be a GuzzleHttp\Stream\StreamInterface or resource in /home/vagrant/code/laracasts-downloader/vendor/guzzlehttp/ringphp/src/Client/CurlFactory.php:416
+Stack trace:
+#0 /home/vagrant/code/laracasts-downloader/vendor/guzzlehttp/ringphp/src/Client/CurlFactory.php(33): GuzzleHttp\Ring\Client\CurlFactory->applyHandlerOptions(Array, Array)
+#1 /home/vagrant/code/laracasts-downloader/vendor/guzzlehttp/ringphp/src/Client/CurlHandler.php(84): GuzzleHttp\Ring\Client\CurlFactory->__invoke(Array, Resource id #189)
+#2 /home/vagrant/code/laracasts-downloader/vendor/guzzlehttp/ringphp/src/Client/CurlHandler.php(68): GuzzleHttp\Ring\Client\CurlHandler->_invokeAsArray(Array)
+#3 /home/vagrant/code/laracasts-downloader/vendor/guzzlehttp/ringphp/src/Client/Middleware.php(54): GuzzleHttp\Ring\Client\CurlHandler->__invoke(Array)
+#4 /home/vagrant/code/laracasts-downloader/vendor/guzzlehttp/ringphp/src/Client/Middleware.php(30): GuzzleHttp\Ring\Client\Middleware::GuzzleHttp\Ring\Client\{closure}(Array)
+#5 /home/vagrant/code/laracasts-downloader/vendor/guzzlehttp/guzzle/src/RequestFsm.php(129): GuzzleHttp\Ring\Client\Middleware::GuzzleHttp\Ring\Client\{closure}(Array)
+#6 /home/vagrant/code/laracasts-downloader/vendor/guzzlehttp/guzzle/src/RequestFsm.php(132): GuzzleHttp\RequestFsm->__invoke(Object(GuzzleHttp\Transaction))
+#7 /home/vagrant/code/laracasts-downloader/vendor/react/promise/src/FulfilledPromise.php(25): GuzzleHttp\RequestFsm->GuzzleHttp\{closure}(Array)
+#8 /home/vagrant/code/laracasts-downloader/vendor/guzzlehttp/ringphp/src/Future/CompletedFutureValue.php(55): React\Promise\FulfilledPromise->then(Object(Closure), NULL, NULL)
+#9 /home/vagrant/code/laracasts-downloader/vendor/guzzlehttp/guzzle/src/Message/FutureResponse.php(43): GuzzleHttp\Ring\Future\CompletedFutureValue->then(Object(Closure), NULL, NULL)
+#10 /home/vagrant/code/laracasts-downloader/vendor/guzzlehttp/guzzle/src/RequestFsm.php(134): GuzzleHttp\Message\FutureResponse::proxy(Object(GuzzleHttp\Ring\Future\CompletedFutureArray), Object(Closure))
+#11 /home/vagrant/code/laracasts-downloader/vendor/guzzlehttp/guzzle/src/Client.php(165): GuzzleHttp\RequestFsm->__invoke(Object(GuzzleHttp\Transaction))
+#12 /home/vagrant/code/laracasts-downloader/App/Http/Resolver.php(258): GuzzleHttp\Client->send(Object(GuzzleHttp\Message\Request))
+#13 /home/vagrant/code/laracasts-downloader/App/Http/Resolver.php(148): App\Http\Resolver->downloadLessonFromPath('<!DOCTYPE html>...', 'Downloads/lesso...')
+#14 /home/vagrant/code/laracasts-downloader/App/Downloader.php(186): App\Http\Resolver->downloadLesson('the-repository-...')
+#15 /home/vagrant/code/laracasts-downloader/App/Downloader.php(139): App\Downloader->downloadLessons(Array, Array, 204)
+#16 /home/vagrant/code/laracasts-downloader/start.php(24): App\Downloader->start(Array)
+#17 {main}
+
+Next GuzzleHttp\Exception\RequestException: save_to must be a GuzzleHttp\Stream\StreamInterface or resource in /home/vagrant/code/laracasts-downloader/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php:51
+Stack trace:
+#0 /home/vagrant/code/laracasts-downloader/vendor/guzzlehttp/guzzle/src/Client.php(184): GuzzleHttp\Exception\RequestException::wrapException(Object(GuzzleHttp\Message\Request), Object(InvalidArgumentException))
+#1 /home/vagrant/code/laracasts-downloader/App/Http/Resolver.php(258): GuzzleHttp\Client->send(Object(GuzzleHttp\Message\Request))
+#2 /home/vagrant/code/laracasts-downloader/App/Http/Resolver.php(148): App\Http\Resolver->downloadLessonFromPath('<!DOCTYPE html>...', 'Downloads/lesso...')
+#3 /home/vagrant/code/laracasts-downloader/App/Downloader.php(186): App\Http\Resolver->downloadLesson('the-repository-...')
+#4 /home/vagrant/code/laracasts-downloader/App/Downloader.php(139): App\Downloader->downloadLessons(Array, Array, 204)
+#5 /home/vagrant/code/laracasts-downloader/start.php(24): App\Downloader->start(Array)
+#6 {main}ERROR: save_to must be a GuzzleHttp\Stream\StreamInterface or resource

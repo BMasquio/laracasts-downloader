@@ -175,6 +175,8 @@ class Resolver
             'verify' => false
         ]);
 
+        echo $response;
+
         return $response->getHeader('Location');
     }
 
@@ -204,8 +206,15 @@ class Resolver
     {
         try {
             $downloadUrl = Parser::getDownloadLink($html);
+            echo '$downloadUrl';
+            echo $downloadUrl;
             $viemoUrl = $this->getRedirectUrl($downloadUrl);
+            echo '$viemoUrl';
+            echo $viemoUrl;
             $finalUrl = $this->getRedirectUrl($viemoUrl);
+            echo '$finalUrl';
+            echo $finalUrl;
+            $finalUrl = $downloadUrl;
         } catch(NoDownloadLinkException $e) {
             Utils::write(sprintf("Can't download this lesson! :( No download button"));
 
@@ -225,6 +234,10 @@ class Resolver
         while (true) {
             try {
                 $downloadedBytes = file_exists($saveTo) ? filesize($saveTo) : 0;
+
+                echo 'finalUrl -> ';
+                echo $finalUrl;
+
                 $req = $this->client->createRequest('GET', $finalUrl, [
                     'save_to' => fopen($saveTo, 'a'),
                     'verify' => false,
@@ -244,6 +257,8 @@ class Resolver
 
                 $response = $this->client->send($req); 
 
+                echo $response;
+
                 if(strpos($response->getHeader('Content-Type'), 'text/html') !== FALSE) {
                     Utils::writeln(sprintf("Got HTML instead of the video file, the subscription is probably inactive"));
                     throw new SubscriptionNotActiveException();
@@ -251,6 +266,9 @@ class Resolver
 
                 break;  
             } catch (\Exception $e) {
+                echo 'exception';
+                echo $e;
+
                 if (is_a($e, SubscriptionNotActiveException::class) || !$this->retryDownload || ($this->retryDownload && $retries >= 3)) {
                     throw $e;
                 }
